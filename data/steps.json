@@ -1,0 +1,51 @@
+{
+  "steps": [
+    {
+      "id": "welcome",
+      "title": {
+        "en": "Welcome to HLR",
+        "da": "Velkommen til HLR"
+      },
+      "content": {
+        "en": "This short tutorial walks you through the basics of using HLR.\n\nUse the Next button below to move through each step.",
+        "da": "Denne korte guide viser dig det grundlæggende i at bruge HLR.\n\nBrug knappen Næste nedenfor for at gå videre til hvert trin."
+      },
+      "image": "/images/welcome.svg"
+    },
+    {
+      "id": "vimeo-demo",
+      "title": {
+        "en": "A step with an embedded video",
+        "da": "Et trin med en indlejret video"
+      },
+      "content": {
+        "en": "Steps can embed a Vimeo video by ID instead of (or alongside) an image.",
+        "da": "Trin kan indlejre en Vimeo-video via ID i stedet for (eller sammen med) et billede."
+      },
+      "video": { "type": "vimeo", "id": "1084537" }
+    },
+    {
+      "id": "local-video-demo",
+      "title": {
+        "en": "A step with a local video file",
+        "da": "Et trin med en lokal videofil"
+      },
+      "content": {
+        "en": "Steps can also reference a video file stored directly in this project, instead of an embed.",
+        "da": "Trin kan også referere til en videofil, der ligger direkte i dette projekt, i stedet for en indlejring."
+      },
+      "video": { "type": "local", "src": "/videos/sample.mp4" }
+    },
+    {
+      "id": "next-steps",
+      "title": {
+        "en": "Next steps",
+        "da": "Næste skridt"
+      },
+      "content": {
+        "en": "That's it for the basics — you're ready to go.",
+        "da": "Det var det grundlæggende — du er klar til at gå i gang."
+      }
+    }
+  ]
+}
