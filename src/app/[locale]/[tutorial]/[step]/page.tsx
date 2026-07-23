@@ -1,20 +1,22 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { withBasePath } from "@/lib/basePath";
-import { steps, type Locale } from "@/lib/steps";
+import { tutorials, getTutorial, type Locale } from "@/lib/tutorials";
 
 const LOCALES: Locale[] = ["en", "da"];
 
-const UI_TEXT: Record<Locale, { stepOf: string; back: string; next: string; done: string }> = {
-  en: { stepOf: "Step {n} of {total}", back: "Back", next: "Next", done: "You're done!" },
-  da: { stepOf: "Trin {n} af {total}", back: "Tilbage", next: "Næste", done: "Du er færdig!" },
+const UI_TEXT: Record<Locale, { stepOf: string; back: string; next: string; allTutorials: string }> = {
+  en: { stepOf: "Step {n} of {total}", back: "Back", next: "Next", allTutorials: "All tutorials" },
+  da: { stepOf: "Trin {n} af {total}", back: "Tilbage", next: "Næste", allTutorials: "Alle vejledninger" },
 };
 
 export async function generateStaticParams() {
-  const params: { locale: string; step: string }[] = [];
+  const params: { locale: string; tutorial: string; step: string }[] = [];
   for (const locale of LOCALES) {
-    for (let i = 1; i <= steps.length; i++) {
-      params.push({ locale, step: String(i) });
+    for (const tutorial of tutorials) {
+      for (let i = 1; i <= tutorial.steps.length; i++) {
+        params.push({ locale, tutorial: tutorial.id, step: String(i) });
+      }
     }
   }
   return params;
@@ -23,30 +25,45 @@ export async function generateStaticParams() {
 export default async function StepPage({
   params,
 }: {
-  params: Promise<{ locale: string; step: string }>;
+  params: Promise<{ locale: string; tutorial: string; step: string }>;
 }) {
-  const { locale: rawLocale, step: stepParam } = await params;
+  const { locale: rawLocale, tutorial: tutorialId, step: stepParam } = await params;
   if (!LOCALES.includes(rawLocale as Locale)) {
     notFound();
   }
   const locale = rawLocale as Locale;
 
+  const tutorial = getTutorial(tutorialId);
+  if (!tutorial) {
+    notFound();
+  }
+
   const stepNumber = Number(stepParam);
   const stepIndex = stepNumber - 1;
-  const step = steps[stepIndex];
+  const step = tutorial.steps[stepIndex];
   if (!Number.isInteger(stepNumber) || !step) {
     notFound();
   }
 
-  const total = steps.length;
+  const total = tutorial.steps.length;
   const current = stepIndex + 1;
   const t = UI_TEXT[locale];
-  const prevHref = current > 1 ? `/${locale}/${current - 1}` : null;
-  const nextHref = current < total ? `/${locale}/${current + 1}` : null;
+  const prevHref = current > 1 ? `/${locale}/${tutorial.id}/${current - 1}` : null;
+  const nextHref = current < total ? `/${locale}/${tutorial.id}/${current + 1}` : null;
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col px-6 py-12">
+      <div className="mb-4">
+        <Link
+          href={`/${locale}`}
+          className="text-xs text-[var(--text-muted)] hover:text-[var(--accent)]"
+        >
+          ← {t.allTutorials}
+        </Link>
+      </div>
+
       <div className="mb-6">
+        <p className="mb-1 text-xs font-medium text-[var(--accent)]">{tutorial.title[locale]}</p>
         <p className="mb-2 text-xs text-[var(--text-muted)]">
           {t.stepOf.replace("{n}", String(current)).replace("{total}", String(total))}
         </p>
@@ -111,7 +128,12 @@ export default async function StepPage({
             {t.next} →
           </Link>
         ) : (
-          <span className="text-sm text-[var(--text-muted)]">{t.done}</span>
+          <Link
+            href={`/${locale}`}
+            className="rounded bg-[var(--accent)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--accent-dark)]"
+          >
+            {t.allTutorials} →
+          </Link>
         )}
       </div>
     </main>

@@ -1,0 +1,84 @@
+{
+  "tutorials": [
+    {
+      "id": "hvad-er-hlr",
+      "title": {
+        "en": "What is HLR?",
+        "da": "Hvad er HLR?"
+      },
+      "steps": [
+        {
+          "id": "intro",
+          "title": {
+            "en": "What is HLR?",
+            "da": "Hvad er HLR?"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Indhold til denne guide er på vej."
+          }
+        }
+      ]
+    },
+    {
+      "id": "adgang",
+      "title": {
+        "en": "How do I get access to HLR?",
+        "da": "Hvordan kommer jeg ind på HLR?"
+      },
+      "steps": [
+        {
+          "id": "intro",
+          "title": {
+            "en": "How do I get access to HLR?",
+            "da": "Hvordan kommer jeg ind på HLR?"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Indhold til denne guide er på vej."
+          }
+        }
+      ]
+    },
+    {
+      "id": "publiceringsmodulet",
+      "title": {
+        "en": "Publishing module",
+        "da": "Publiceringsmodulet"
+      },
+      "steps": [
+        {
+          "id": "intro",
+          "title": {
+            "en": "Publishing module",
+            "da": "Publiceringsmodulet"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Indhold til denne guide er på vej."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sagsbehandlingsmodulet",
+      "title": {
+        "en": "Case processing module",
+        "da": "Sagsbehandlingsmodulet"
+      },
+      "steps": [
+        {
+          "id": "intro",
+          "title": {
+            "en": "Case processing module",
+            "da": "Sagsbehandlingsmodulet"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Indhold til denne guide er på vej."
+          }
+        }
+      ]
+    }
+  ]
+}
