@@ -18,6 +18,11 @@
   --accent: #44831e;
   --accent-dark: #3c5c22;
   --link: #004d99;
+
+  --illustration-dark: #2f5c16;
+  --illustration-mid: #44831e;
+  --illustration-light: #8fc464;
+  --illustration-glass: #ffe9a8;
 }
 
 @theme inline {
@@ -39,6 +44,11 @@
     --accent: #58a83f;
     --accent-dark: #41ab5d;
     --link: #5b9bd5;
+
+    --illustration-dark: #3c6b28;
+    --illustration-mid: #58a83f;
+    --illustration-light: #8ed671;
+    --illustration-glass: #ffe9a8;
   }
 }
 

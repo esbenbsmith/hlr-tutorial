@@ -1,12 +1,19 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import HouseIllustration from "@/components/HouseIllustration";
 import { tutorials, type Locale } from "@/lib/tutorials";
 
 const LOCALES: Locale[] = ["en", "da"];
 
 const UI_TEXT: Record<Locale, { heading: string; subheading: string }> = {
-  en: { heading: "Tutorials", subheading: "Choose a tutorial to get started." },
-  da: { heading: "Vejledninger", subheading: "Vælg en vejledning for at komme i gang." },
+  en: {
+    heading: "Welcome to the Huslejenaevn.dk training environment",
+    subheading: "Choose a tutorial to get started.",
+  },
+  da: {
+    heading: "Velkommen til uddannelsesmiljøet for Huslejenaevn.dk",
+    subheading: "Vælg en vejledning for at komme i gang.",
+  },
 };
 
 export async function generateStaticParams() {
@@ -27,8 +34,9 @@ export default async function TutorialsIndexPage({
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col px-6 py-12">
-      <h1 className="mb-2 text-2xl font-bold text-[var(--text-primary)]">{t.heading}</h1>
-      <p className="mb-8 text-sm text-[var(--text-secondary)]">{t.subheading}</p>
+      <HouseIllustration className="mx-auto mb-6 h-36 w-36" />
+      <h1 className="mb-2 text-center text-2xl font-bold text-[var(--text-primary)]">{t.heading}</h1>
+      <p className="mb-8 text-center text-sm text-[var(--text-secondary)]">{t.subheading}</p>
 
       <ul className="space-y-3">
         {tutorials.map((tutorial) => (
