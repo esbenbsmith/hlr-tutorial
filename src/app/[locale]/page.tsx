@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import HouseIllustration from "@/components/HouseIllustration";
-import { tutorials, type Locale } from "@/lib/tutorials";
+import { getTopLevelTutorials, type Locale } from "@/lib/tutorials";
 
 const LOCALES: Locale[] = ["en", "da"];
 
@@ -39,10 +39,10 @@ export default async function TutorialsIndexPage({
       <p className="mb-8 text-center text-sm text-[var(--text-secondary)]">{t.subheading}</p>
 
       <ul className="space-y-3">
-        {tutorials.map((tutorial) => (
+        {getTopLevelTutorials().map((tutorial) => (
           <li key={tutorial.id}>
             <Link
-              href={`/${locale}/${tutorial.id}/1`}
+              href={"choices" in tutorial ? `/${locale}/${tutorial.id}` : `/${locale}/${tutorial.id}/1`}
               className="flex items-center justify-between rounded-lg border border-[var(--border)] bg-[var(--surface-1)] px-5 py-4 text-sm font-medium text-[var(--text-primary)] transition-colors hover:border-[var(--accent)]"
             >
               {tutorial.title[locale]}

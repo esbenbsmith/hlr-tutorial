@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { withBasePath } from "@/lib/basePath";
-import { tutorials, getTutorial, type Locale } from "@/lib/tutorials";
+import { tutorials, getTutorial, getChooserFor, type Locale } from "@/lib/tutorials";
 
 const LOCALES: Locale[] = ["en", "da"];
 
@@ -14,6 +14,7 @@ export async function generateStaticParams() {
   const params: { locale: string; tutorial: string; step: string }[] = [];
   for (const locale of LOCALES) {
     for (const tutorial of tutorials) {
+      if (!("steps" in tutorial)) continue;
       for (let i = 1; i <= tutorial.steps.length; i++) {
         params.push({ locale, tutorial: tutorial.id, step: String(i) });
       }
@@ -34,7 +35,7 @@ export default async function StepPage({
   const locale = rawLocale as Locale;
 
   const tutorial = getTutorial(tutorialId);
-  if (!tutorial) {
+  if (!tutorial || !("steps" in tutorial)) {
     notFound();
   }
 
@@ -48,7 +49,13 @@ export default async function StepPage({
   const total = tutorial.steps.length;
   const current = stepIndex + 1;
   const t = UI_TEXT[locale];
-  const prevHref = current > 1 ? `/${locale}/${tutorial.id}/${current - 1}` : null;
+  const chooser = getChooserFor(tutorial.id);
+  const prevHref =
+    current > 1
+      ? `/${locale}/${tutorial.id}/${current - 1}`
+      : chooser
+        ? `/${locale}/${chooser.id}`
+        : null;
   const nextHref = current < total ? `/${locale}/${tutorial.id}/${current + 1}` : null;
 
   return (

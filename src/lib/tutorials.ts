@@ -19,11 +19,19 @@ export type Step = {
   video?: StepVideo;
 };
 
-export type Tutorial = {
+export type StepsTutorial = {
   id: string;
   title: LocalizedText;
   steps: Step[];
 };
+
+export type ChoicesTutorial = {
+  id: string;
+  title: LocalizedText;
+  choices: string[];
+};
+
+export type Tutorial = StepsTutorial | ChoicesTutorial;
 
 function assertLocalizedText(value: unknown, field: string, label: string): asserts value is LocalizedText {
   const text = value as Partial<LocalizedText> | undefined;
@@ -79,14 +87,39 @@ function validateTutorial(raw: unknown, index: number): Tutorial {
   }
   assertLocalizedText(tutorial.title, "title", label);
 
+  const hasSteps = "steps" in tutorial;
+  const hasChoices = "choices" in tutorial;
+
+  if (hasSteps && hasChoices) {
+    throw new Error(`${label}: cannot have both "steps" and "choices" — a tutorial is either one or the other`);
+  }
+  if (!hasSteps && !hasChoices) {
+    throw new Error(`${label}: must have either "steps" or "choices"`);
+  }
+
+  if (hasChoices) {
+    const choices = tutorial.choices;
+    if (!Array.isArray(choices) || choices.length === 0) {
+      throw new Error(`${label}: "choices" must be a non-empty array`);
+    }
+    if (!choices.every((c) => typeof c === "string" && c)) {
+      throw new Error(`${label}: every entry in "choices" must be a non-empty string`);
+    }
+    if (new Set(choices).size !== choices.length) {
+      throw new Error(`${label}: "choices" contains duplicate entries`);
+    }
+    return { id: tutorial.id, title: tutorial.title, choices } as ChoicesTutorial;
+  }
+
   if (!Array.isArray(tutorial.steps) || tutorial.steps.length === 0) {
     throw new Error(`${label}: "steps" must be a non-empty array`);
   }
 
   return {
-    ...tutorial,
+    id: tutorial.id,
+    title: tutorial.title,
     steps: tutorial.steps.map((step, i) => validateStep(step, label, i)),
-  } as unknown as Tutorial;
+  } as StepsTutorial;
 }
 
 function loadTutorials(): Tutorial[] {
@@ -105,6 +138,22 @@ function loadTutorials(): Tutorial[] {
     seenIds.add(tutorial.id);
   }
 
+  const byId = new Map(tutorials.map((t) => [t.id, t]));
+  for (const tutorial of tutorials) {
+    if (!("choices" in tutorial)) continue;
+    for (const choiceId of tutorial.choices) {
+      const target = byId.get(choiceId);
+      if (!target) {
+        throw new Error(`Tutorial "${tutorial.id}": "choices" references unknown tutorial id "${choiceId}"`);
+      }
+      if ("choices" in target) {
+        throw new Error(
+          `Tutorial "${tutorial.id}": "choices" references "${choiceId}", which is itself a chooser — chained choosers are not supported`
+        );
+      }
+    }
+  }
+
   return tutorials;
 }
 
@@ -112,4 +161,15 @@ export const tutorials: Tutorial[] = loadTutorials();
 
 export function getTutorial(id: string): Tutorial | undefined {
   return tutorials.find((tutorial) => tutorial.id === id);
+}
+
+// Tutorials referenced by some chooser's "choices" are reached only via that
+// chooser, so they're excluded from the arrival page's own top-level list.
+export function getTopLevelTutorials(): Tutorial[] {
+  const referenced = new Set(tutorials.flatMap((t) => ("choices" in t ? t.choices : [])));
+  return tutorials.filter((t) => !referenced.has(t.id));
+}
+
+export function getChooserFor(tutorialId: string): ChoicesTutorial | undefined {
+  return tutorials.find((t): t is ChoicesTutorial => "choices" in t && t.choices.includes(tutorialId));
 }

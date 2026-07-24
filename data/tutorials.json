@@ -15,8 +15,33 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Indhold til denne guide er på vej."
-          }
+            "da": "HLR er en samlet digital løsning til indbringelse, sagsbehandling, og indberetning af husleje- og beboerklagenævnssager."
+          },
+          "image": "/images/welcome.svg"
+        },
+        {
+          "id": "example-image",
+          "title": {
+            "en": "Example: step with an image",
+            "da": "Hvad er obligatorisk for kommunerne at bruge?"
+          },
+          "content": {
+            "en": "This step shows the \"image\" field — see data/tutorials.json.",
+            "da": "For husleje- og beboerklagenævnene i kommunerne er det udelukkende indberetningsfunktionen (”Publiceringsmodulet”) som er obligatorisk. Det er lovpligtigt at indberette sagen senest 14 dage efter sagen er indbragt, og senest 14 dage efter afgørelsen er truffet. Indbringelsesmodulet og sagsbehandlingsmodulet er valgfrie."
+          },
+          "image": "/images/welcome.svg"
+        },
+        {
+          "id": "example-image",
+          "title": {
+            "en": "Example: step with an image",
+            "da": "Hvad kan kommunerne tilvælge?"
+          },
+          "content": {
+            "en": "This step shows the \"image\" field — see data/tutorials.json.",
+            "da": "Dit nævn kan vælge mellem:\n\n• At bruge hele systemet, dvs. både indbringelse, sagsbehandling og indberetning til registrene sker i samme system.\n\n• At modtage indbringelser i systemet og indberette afgørelserne i system, men at gennemføre sagsbehandling i et af kommunerne/nævnets eget systemer.\n\n• At bruge indberetningsmodulet til indberetning af sagerne/afgørelserne."
+          },
+          "image": "/images/welcome.svg"
         }
       ]
     },
@@ -35,8 +60,32 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Indhold til denne guide er på vej."
+            "da": "Før en bruger i din organisation kan tilgå sagsbehandlingsmodulet, publiceringsmodulet eller kontrolpanelet, der ligger (eller senere kommer til at ligge) under Huslejenævn.dk, skal brugerne have tildelt roller, der giver adgang til f.eks. at redigere i de forskellige dele af løsningen. En MitID administrator i din organisation kan tildele roller med de relevante rettigheder til brugere i din organisation på MitID Erhverv."
           }
+        },
+        {
+          "id": "example-vimeo",
+          "title": {
+            "en": "Example: step with a Vimeo video",
+            "da": "Log på MitID Erhverv-profil"
+          },
+          "content": {
+            "en": "This step shows the \"video\" field with type \"vimeo\" — see data/tutorials.json.",
+            "da": "Er du MitID administrator, så tildeler du roller til løsningen ved at tilgå din brugerprofil på MitID Erhverv. Dette gør du ved at logge på enten:\n\n- https://mitid-erhverv.dk/\n\n- https://erhvervsadministration.nemlog-in.dk.\n\n- Eller ved at tilgå din MitID-profil via Mit virk på: https://virk.dk/.\n\nDu kan som administrator også modtage en e-mail, når en bruger har anmodet om rettigheder i løsningen. Via klokkeikonet øverst på din profil, kan du se de brugere, som kræver handling (se vejledning for hvordan brugere anmoder om adgange: Vejledning til login med NemLog-in til publiceringsmodul på huslejenaevn.dk). Fremsøg/-find den bruger, som skal have tildelt rettigheder til løsningen via menuen ”Brugere”."
+          },
+          "image": "/images/welcome.svg"
+        },
+        {
+          "id": "example-vimeo",
+          "title": {
+            "en": "Example: step with a Vimeo video",
+            "da": "Tildel Rettigheder"
+          },
+          "content": {
+            "en": "This step shows the \"video\" field with type \"vimeo\" — see data/tutorials.json.",
+            "da": "Du fremsøger brugere ved at søge på navn i søgefeltet ”søg efter brugere”. I listen over brugere klikker du på de tre prikker ud for den fremsøgte bruger, og vælger ”Redigér bruger”. Herefter kan du under sektionen ”Rettigheder” klikke på ”Tildel rettigheder”: Under ’Tildel rettigheder” markerer du relevant rettighed. Rettighederne (som er knyttet til rollerne) vil være navngivet:\n\n• Huslejenævn – Administrator (Kun tilgængelig for SBST)\n\n• Huslejenævn – Sagsbehandler: Sagsbehandler hos kommunen/nævn, som behandler sager.\n\n• Huslejenævn – Administrativ medarbejder: Administrativ medarbejder hos kommunen/nævn, som publicerer afgørelser.\n\n• Huslejenævn – Sekretariatsleder: Sekretariatsleder hos kommunen/nævn, som fordeler indkomne sager og laver opsætning for kommunen.\n\nRettighederne er placeret i gruppen ”Ejendom og adresse”."
+          },
+          "image": "/images/welcome.svg"
         }
       ]
     },
@@ -50,12 +99,78 @@
         {
           "id": "intro",
           "title": {
-            "en": "Publishing module",
-            "da": "Publiceringsmodulet"
+            "en": "Introduction to the Publishing Module",
+            "da": "Introduktion til Publiceringsmodulet"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Indhold til denne guide er på vej."
+            "da": "Publiceringsmodulet bruges af kommuner og nævn til at indberette sager og afgørelser fra landets husleje- og beboerklagenævn. Det er obligatorisk for kommuner og nævn at indberette, blandt andet for at sikre en øget gennemsigtighed i lejeniveauer og afgørelser på tværs af kommuner i Danmark.\n\nNavnet \"Publiceringsmodulet\" understreger, at alle sager, som er indbragt for husleje- og beboerklagenævnene, skal offentliggøres (publiceres). Kommuner og nævn er forpligtet til at oprette en publicering senest 14 dage efter sagen er indbragt af lejer, udlejer eller deres repræsentant.\n\nNår sagen er behandlet og afsluttet, opdateres publiceringen med relevante oplysninger, såsom pseudonymiseret afgørelsestekst.\n\nDe offentliggjorte sager udstilles i tre registre: Afgørelsesregistret, Huslejeregistret og Statusregistret. De to første indeholder kun oplysninger om afsluttede sager (henlagte eller afgjorte), mens Statusregistret også indeholder oplysninger om verserende sager.\n\nDet er muligt at oprette og redigere sager og afgørelser løbende — også i historiske sager, f.eks. for at tilføje afgørelsestekst, huslejeniveauer eller et mere præcist lovgrundlag.\n\nFor at kunne bruge Publiceringsmodulet skal du være logget ind med MitID Erhverv og have fået tildelt de korrekte rettigheder. Se vejledningen \"Vejledning NemLog-in roller og rettigheder SBST\" for hjælp til login."
+          }
+        },
+        {
+          "id": "forside-navigation",
+          "title": {
+            "en": "Front page and navigation",
+            "da": "Forsiden og navigation"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Efter login vises Publiceringsmodulets forside, \"Sager og afgørelser\". Her kan du oprette nye publiceringer, se en liste over eksisterende publiceringer og søge blandt dem. Du kan se publiceringer for den kommune, du arbejder i, samt for kommuner, som din kommune har bemyndigelse til at behandle på vegne af.\n\nHeaderen er statisk, men indeholder tre funktioner: portal-logoet (leder tilbage til forsiden), knappen \"Log af\" (ved 30 minutters inaktivitet logges du automatisk af — du advares 5 minutter før), og menupunktet \"Publiceringer\" (leder også til forsiden).\n\nI søgefeltet kan du finde en publicering på:\n\n• Løbenummer (alle cifre er nødvendige, fx 101-13365)\n\n• Adresse (komplet eller delvis, fx \"Holmens Kanal\")\n\n• Publiceringsnummer (alle cifre er nødvendige)\n\n• Sagsnummer (alle cifre er nødvendige)\n\n• Afgørelsesnummer (alle cifre er nødvendige)\n\nListen sorteres som standard efter løbenummer, med de nyeste publiceringer øverst. Hver række viser adresse(r), offentliggørelsesdato, tilgængelighed og sagsstatus, samt et link til at redigere publiceringen. Er der mere end 15 publiceringer, vises paginering nederst på siden."
+          }
+        },
+        {
+          "id": "om-lejemaal",
+          "title": {
+            "en": "Create a new publication: about the tenancy",
+            "da": "Opret ny publicering: Om lejemål"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Tryk på \"Opret ny publicering\" på forsiden for at starte en ny publicering. Hvis din kommune har bemyndigelse til at behandle sager for andre kommuner, skal du først vælge, hvilken kommune publiceringen hører til.\n\nOprettelsen består af op til fire trin, som du kan se og navigere mellem i trinviseren i venstre side. Du kan også bruge \"Næste trin\"-knappen nederst på hvert trin (findes ikke på det sidste trin).\n\nEn publicering er først gemt, når du trykker \"Gem\" i øverste højre hjørne — bevæger du dig væk uden at gemme, går ændringerne siden sidste gem tabt. Pilen ved \"Gem\"-knappen giver også mulighed for \"Gem og afslut\", som gemmer og sender dig tilbage til forsiden. Når en publicering gemmes for første gang, får den automatisk tildelt et løbenummer.\n\nDet første trin, \"Om lejemål\", er hvor du tilføjer alle adresser, publiceringen vedrører — der er ingen begrænsning på antallet. Adresser kan tilføjes automatisk via opslag i Danmarks Adresseregister (DAR): begynd at skrive adressen i søgefeltet, og vælg blandt forslagene. Findes adressen ikke i DAR, kan den tilføjes manuelt via knappen \"Tilføj adresse manuelt\" — her skal alle felter, inklusive BFE-numre, udfyldes manuelt.\n\nDe obligatoriske adressefelter er vejnavn, husnummer, postnummer og postnummerdistrikt. Etage, dør, supplerende bynavn, kommunekode og BFE-numre er valgfrie. Mangler eller er et felt forkert udfyldt, markeres det med rødt og en fejltekst."
+          }
+        },
+        {
+          "id": "om-sagen",
+          "title": {
+            "en": "Create a new publication: about the case",
+            "da": "Opret ny publicering: Om sagen"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Trinnet \"Om sagen\" indeholder sagens øvrige oplysninger. Ingen felter her er obligatoriske, men dine svar har betydning for, hvordan og hvor publiceringen offentliggøres.\n\nSpørgsmålet \"Skal sagen være offentlig tilgængelig?\" afgør, om publiceringen vises i Afgørelses- og/eller Huslejeregistret. For at blive vist i Afgørelsesregistret skal sagsstatus være \"Afsluttet\", og begrundelsen skal være \"Afsluttet uden afgørelse\" eller \"Afsluttet med afgørelse om ...\". For også at blive vist i Huslejeregistret skal begrundelsen være \"Afsluttet med afgørelse om medhold\", og et lovgrundlag om husleje skal være valgt.\n\nHusk at anonymisere eventuel afgørelsestekst, før publiceringen gøres offentligt tilgængelig — systemet anonymiserer ikke selv teksten.\n\nAndre felter på dette trin: \"Hvem er indbringer?\" (hvem der har indbragt sagen), \"Sagen er behandlet i flg. nævn?\" og \"Sagens status?\". Svaret på \"Begrundelse for afslutning af sag?\" udløser desuden yderligere trin:\n\n• \"Afsluttet uden afgørelse\" åbner trinnet \"Om henlæggelse\"\n\n• \"Afsluttet med afgørelse om medhold\" åbner trinene \"Om afgørelse\" og \"Om husleje\"\n\n• \"Afsluttet med afgørelse om afvisning\" åbner trinnet \"Om afgørelse\"\n\nDu kan også angive et eget \"Eventuelt kommunalt nummer for sag\" og \"for offentliggørelse\" efter eget system, hvis I ønsker det."
+          }
+        },
+        {
+          "id": "om-afgoerelse",
+          "title": {
+            "en": "About discontinuance and decisions",
+            "da": "Om henlæggelse og afgørelse"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Er sagen afsluttet med begrundelsen \"Afsluttet uden afgørelse\", bliver trinnet \"Om henlæggelse\" aktivt. Her sætter du dato for henlæggelsen og vælger den relevante begrundelse.\n\nEr sagen afsluttet med \"Afsluttet med afgørelse om medhold\" eller \"om afvisning\", bliver trinnet \"Om afgørelse\" aktivt i stedet. Her angiver du dato for afgørelsen, hvad sagen vedrører (der kan vælges flere emner), om der er foretaget besigtigelse, og om afgørelsen er principiel.\n\nDu kan desuden angive lovgrundlaget for afgørelsen — der kan afkrydses mere end én paragraf. Lovgrundlaget har betydning for, om publiceringen vises i Huslejeregistret: kun sager, der er offentlig tilgængelige og knyttet til et lovgrundlag om huslejeregulering (f.eks. bestemte paragraffer i Boligreguleringsloven eller Lejeloven), vises der.\n\nAfgørelsesteksten kan tilknyttes på tre måder: automatisk pseudonymisering via Cleardox.io (upload PDF'en, og den pseudonymiserede version skal godkendes), upload af et allerede pseudonymiseret dokument, eller manuel indtastning i et fritekstfelt uden tegnbegrænsning. Uanset metode er det jeres ansvar, at afgørelsesteksten ikke indeholder følsomme personoplysninger.\n\nAfhængigt af begrundelsen vises desuden enten \"Hvem har fået medhold i sagen?\" og \"Er udlejer pålagt gebyr?\" (ved medhold), eller \"Hvad er begrundelsen for afgørelse om afvisning?\" (ved afvisning)."
+          }
+        },
+        {
+          "id": "om-husleje",
+          "title": {
+            "en": "About rent",
+            "da": "Om husleje"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Trinnet \"Huslejeoplysninger\" bliver aktivt, hvis sagen er afsluttet med \"Afgørelse om medhold\". Her angiver du \"Dato for fastsættelse af husleje?\", \"Huslejen er fastsat efter reglerne om?\", \"Nævnet har angivet huslejen som?\" og om huslejen gælder ét specifikt eller flere lejemål.\n\nBåde huslejen og lejemålets areal indtastes med cifre, hvor komma kan bruges som decimalseparator."
+          }
+        },
+        {
+          "id": "redigering",
+          "title": {
+            "en": "Editing a publication",
+            "da": "Redigering af en publicering"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når en publicering er gemt, kan den redigeres igen når som helst. Gå til Publiceringsmodulets forside, find publiceringen i listen, og tryk på \"Rediger\" i den sidste kolonne. Redigeringsvisningen er identisk med oprettelsesformularen."
           }
         }
       ]
@@ -66,12 +181,40 @@
         "en": "Case processing module",
         "da": "Sagsbehandlingsmodulet"
       },
+      "choices": ["sekretariatsleder", "sagsbehandler"]
+    },
+    {
+      "id": "sekretariatsleder",
+      "title": {
+        "en": "Secretariat manager",
+        "da": "Sekretariatsleder"
+      },
       "steps": [
         {
           "id": "intro",
           "title": {
-            "en": "Case processing module",
-            "da": "Sagsbehandlingsmodulet"
+            "en": "Secretariat manager",
+            "da": "Sekretariatsleder"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Indhold til denne guide er på vej."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sagsbehandler",
+      "title": {
+        "en": "Caseworker",
+        "da": "Sagsbehandler"
+      },
+      "steps": [
+        {
+          "id": "intro",
+          "title": {
+            "en": "Caseworker",
+            "da": "Sagsbehandler"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
