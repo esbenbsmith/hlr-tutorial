@@ -17,7 +17,7 @@
             "en": "Content for this tutorial is coming soon.",
             "da": "HLR er en samlet digital løsning til indbringelse, sagsbehandling, og indberetning af husleje- og beboerklagenævnssager."
           },
-          "image": "/images/welcome.svg"
+          "image": "/images/hvad-er-hlr/system-oversigt.svg"
         },
         {
           "id": "example-image",
@@ -27,9 +27,9 @@
           },
           "content": {
             "en": "This step shows the \"image\" field — see data/tutorials.json.",
-            "da": "For husleje- og beboerklagenævnene i kommunerne er det udelukkende indberetningsfunktionen (”Publiceringsmodulet”) som er obligatorisk. Det er lovpligtigt at indberette sagen senest 14 dage efter sagen er indbragt, og senest 14 dage efter afgørelsen er truffet. Indbringelsesmodulet og sagsbehandlingsmodulet er valgfrie."
+            "da": "For husleje- og beboerklagenævnene i kommunerne er det udelukkende indberetningsfunktionen (”Publiceringsmodulet”) som er obligatorisk. Det kan tilgås på publicer.huslejenaevn.dk. Det er lovpligtigt at indberette sagen senest 14 dage efter sagen er indbragt, og senest 14 dage efter afgørelsen er truffet. Indbringelsesmodulet og sagsbehandlingsmodulet er valgfrie."
           },
-          "image": "/images/welcome.svg"
+          "image": "/images/hvad-er-hlr/Publicer_cut.png"
         },
         {
           "id": "example-image",
