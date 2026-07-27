@@ -35,8 +35,8 @@ export default async function TutorialsIndexPage({
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col px-6 py-12">
-      <HouseIllustration className="mx-auto mb-4 h-36 w-36" />
-      <HuslejenaevnLogo className="mb-6 text-xl" />
+      <HouseIllustration className="mx-auto mb-4 h-44 w-44" />
+      <HuslejenaevnLogo className="mb-6 text-2xl" />
       <h1 className="mb-2 text-center text-2xl font-bold text-[var(--text-primary)]">{t.heading}</h1>
       <p className="mb-8 text-center text-sm text-[var(--text-secondary)]">{t.subheading}</p>
 
