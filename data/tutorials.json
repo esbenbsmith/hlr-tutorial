@@ -191,15 +191,75 @@
       },
       "steps": [
         {
-          "id": "intro",
+          "id": "rolle-og-adgang",
           "title": {
-            "en": "Secretariat manager",
-            "da": "Sekretariatsleder"
+            "en": "The secretariat manager role and access",
+            "da": "Sekretariatslederrollen og adgang"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Indhold til denne guide er på vej."
+            "da": "Der findes to roller i Huslejenaevn.dk, som kan bruge sagsbehandlingsmodulet: \"Sagsbehandler\" og \"Sekretariatsleder\".\n\nRollen som sekretariatsleder har flere funktioner end rollen som sagsbehandler. Den gives til den/dem, der har en administrativ opgave i nævnet — dvs. står for at fordele sagerne ud på sagsbehandlerne, definere sagstrinene og oprette nævnsmøder m.v.\n\nUanset hvilken rolle du har, logger du på via samme link/adgang — det er rollen, du er tildelt, der bestemmer, hvad du får adgang til.\n\nDenne vejledning er til \"Sekretariatsleder\"-rollen.\n\nDu får adgang ved at bede din MitID-administrator (som oftest arbejder i din organisation) om at oprette dig med \"Sekretariatsleder\"-rollen via MitID Erhverv. Skal der ske ændringer i dine roller, skal du også kontakte MitID-administratoren i din organisation. Du skal bruge dit MitID Erhverv, hver gang du logger på huslejenaevn.dk-sagsbehandlingsmodulet."
           }
+        },
+        {
+          "id": "oversigten",
+          "title": {
+            "en": "The overview page",
+            "da": "Oversigten"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Den første side, du bliver mødt af, når du logger på, er oversigtsbilledet, hvor du kan se, hvilke funktioner du har adgang til:\n\n• Indbragte sager: En oversigt over alle sager, som er indbragt til nævnet\n\n• Sagsbehandlere: En liste over sagsbehandlere og deres sagsbyrde\n\n• Møder: En oversigt over kommende nævnsmøder og besigtigelser, som kan redigeres\n\n• Nævnsmedlemmer: En oversigt over tilknyttede nævnsmedlemmer, hvor der kan tilføjes og fjernes\n\n• Sagstrin: Hvor man kan oprette og redigere de sagstrin, der bruges i sagsbehandlingen\n\nI den øverste bjælke kan du se, hvilket nævn oplysningerne vises for. Er du sekretariatsleder for flere nævn, kan du skifte mellem dem ved at klikke på de tre prikker efter navnet.\n\nDenne vejledning gennemgår ikke \"Indbragte sager\" — se i stedet vejledningen til sagsbehandler-rollen."
+          },
+          "image": "/images/sekretariatsleder/Oversigt_cut.png"
+        },
+        {
+          "id": "sagsbehandlere",
+          "title": {
+            "en": "Caseworkers",
+            "da": "Sagsbehandlere"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "I oversigten kan du som sekretariatsleder se, hvor mange igangværende sager hver sagsbehandler har fået tildelt. Du kan sortere listen efter enten sagsbehandlerens navn eller antallet af sager ved at klikke på pilene i overskriften, og du kan vælge, hvor mange sagsbehandlere der skal vises pr. side (15, 30 eller 50) via \"Vælg antal\"."
+          },
+          "image": "/images/sekretariatsleder/Sagsbehandlere_cut.png"
+        },
+        {
+          "id": "moeder",
+          "title": {
+            "en": "Meetings",
+            "da": "Møder"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Møder\" kan du som sekretariatsleder oprette nye møder og danne dig et overblik over de kommende nævnsmøder. Klik på \"Tidligere\" for at se listen over tidligere møder.\n\nTryk \"Opret møde\" for at planlægge et nyt møde — her angiver du dato, start- og sluttidspunkt, en titel og hvilke deltagere der skal med.\n\nDeling af sager og dokumenter med nævnsmedlemmerne sker i forbindelse med selve sagsbehandlingen — se vejledningen til sagsbehandler-rollen."
+          },
+          "image": "/images/sekretariatsleder/Moeder_cut.png"
+        },
+        {
+          "id": "naevnsmedlemmer",
+          "title": {
+            "en": "Board members",
+            "da": "Nævnsmedlemmer"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Nævnsmedlemmer\" kan du invitere nævnsmedlemmer til at få adgang til nævnsmodulet. Selvom et nævnsmedlem har adgang til nævnsmodulet, kan det alene se de dokumenter og sager, som en sagsbehandler har givet det adgang til — et nævnsmedlem får altså ikke automatisk adgang til sagerne i nævnet, blot fordi det er tildelt adgang til nævnet.\n\nDu opretter et nævnsmedlem ved at trykke \"Opret nævnsmedlem\" og angive navn og e-mailadresse. Herefter sendes en invitation, og nævnsmedlemmet modtager en e-mail med vejledning i at oprette sig — de skal bl.a. sætte en to-faktor-autentificering op via app'en \"FreeOTP\", som skal bruges hver gang de logger ind på naevn.huslejenaevn.dk. Nævnsmedlemmer skal oprettes for hvert nævn, de skal have adgang til."
+          },
+          "image": "/images/sekretariatsleder/Naevnsmedlemmer_cut.png"
+        },
+        {
+          "id": "sagstrin",
+          "title": {
+            "en": "Case steps",
+            "da": "Sagstrin"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Sagstrin\" kan du oprette sagstrin til sagsbehandlingen og redigere rækkefølgen på dem. Hvert nævn sagsbehandler på sin egen måde, så sagstrinene er individuelle for hvert nævn. Sagstrinene er de faser, en sag bevæger sig igennem — det er dog udelukkende sagsbehandlerne, der kan ændre en konkret sags status undervejs."
+          },
+          "image": "/images/sekretariatsleder/Sagstrin_cut.png"
         }
       ]
     },
@@ -211,15 +271,169 @@
       },
       "steps": [
         {
-          "id": "intro",
+          "id": "rolle-og-adgang",
           "title": {
-            "en": "Caseworker",
-            "da": "Sagsbehandler"
+            "en": "The caseworker role and access",
+            "da": "Sagsbehandlerrollen og adgang"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Indhold til denne guide er på vej."
+            "da": "Der findes to roller i Huslejenaevn.dk, som kan bruge sagsbehandlingsmodulet: \"Sagsbehandler\" og \"Sekretariatsleder\".\n\nRollen som sagsbehandler gives til de medarbejdere i nævnet, som skal sagsbehandle sagerne. Rollen som sekretariatsleder gives til medarbejdere, som også har flere administrative opgaver i nævnet, eksempelvis fordeling af sager til medarbejdere og administration af nævnsmedlemmerne. Det er samme link, der bruges til at logge på systemet, uanset hvilken af de to roller man har — det er rollen, der afgør, hvilken funktionalitet man har adgang til. MitID Erhverv skal bruges, hver gang man logger på.\n\nDenne vejledning er til \"Sagsbehandler\"-rollen.\n\nDu får adgang ved at bede din MitID-administrator (som oftest arbejder i din organisation) om at oprette dig med \"Sagsbehandler\"-rollen via MitID Erhverv. Skal der ske ændringer i dine roller, skal du også kontakte MitID-administratoren i din organisation."
           }
+        },
+        {
+          "id": "oversigten",
+          "title": {
+            "en": "The overview page and choosing a board",
+            "da": "Oversigten og valg af nævn"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når du logger på huslejenævnet, er det første billede du ser oversigtsbilledet. Som sagsbehandler har du alene adgang til denne sektion. Tryk på \"Indbragte sager\" for at tilgå sagsoversigten.\n\nHvis du sagsbehandler for flere nævn, kan du øverst på oversigtssiden skifte nævn. Klik på de tre små prikker, så fremkommer listen med de nævn, du er sagsbehandler på. Tryk f.eks. på \"Københavns Kommune Huslejenævn\" for at vælge, hvilket nævn du vil sagsbehandle for."
+          }
+        },
+        {
+          "id": "sagsoversigten",
+          "title": {
+            "en": "The case list",
+            "da": "Sagsoversigten"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På sagsoversigten kan du tilgå alle sager, som er relevante for det pågældende nævn, og oprette nye sager, hvis der er behov for det. Sager, som udlejer eller lejer har indbragt via huslejenaevn.dk (indbringelsesmodulet), oprettes automatisk. \"Opret sag\" bruges til sager, som ikke er modtaget via huslejenaevn.dk.\n\nI sagsoverblikket kan du se:\n\n• Løbenr.: Sagsnummeret i huslejenaevn.dk\n\n• Adresse: Adressen knyttet til sagen\n\n• Sagsbehandler: Den sagsbehandler, der er koblet til sagen (medarbejderen med sekretariatsleder-rollen tildeler sagsbehandlere til sagerne)\n\n• Sagstrin: Hvor i sagsforløbet sagen befinder sig (kun sekretariatslederen kan oprette og redigere sagstrin)\n\nDen sidste kolonne viser, om gebyret er betalt: enten \"Betalt\" eller \"Manglende betaling\".\n\nDu kan sætte filter, så du ikke ser alle sagerne — tryk på \"Vis filtre\". Du kan filtrere på bl.a. sagsbehandler, status, sagstrin, indbragt/afgjort i perioden, indbringer, afslutningsårsag, medhold og lovhjemmel. Der er desuden tre hurtige til/fra-filtre: \"Vis kun mine sager\", \"Vis kun sager med nye beskeder\" og \"Vis kun sager med varsel eller alarm\"."
+          }
+        },
+        {
+          "id": "sagen-overblik",
+          "title": {
+            "en": "The case: Overview",
+            "da": "Sagen: Overblik"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når du åbner en specifik sag, lander du på \"Overblik\". Her ser du sagsnummeret og hvilket trin i sagsbehandlingen sagen befinder sig i. Mærkaten \"Manglende offentliggørelse\" betyder, at sagen ikke er offentliggjort endnu; \"Manglende betaling\" fortæller, om gebyret er betalt.\n\nUnder løbenummeret findes en række faner (Overblik, Lejemål, Parter m.fl.), som du bruger til at skifte mellem sagens forskellige dele.\n\nDen grønne knap har to funktioner: klikker du på selve teksten \"Skift sagstrin\", kan du skifte sagstrin. Klikker du på pilen til højre, finder du i stedet funktionerne \"Registrer betaling\", \"Offentliggør sag\" og \"Opret aktindsigtsdokument\".\n\n\"Registrer betaling\" lader dig gemme, hvornår en sags gebyr anses for betalt. \"Offentliggør sag\" bruges til at indberette, at en sag er blevet indbragt, og derved opfylde indberetningspligten — vær opmærksom på, at der kan gå et par minutter, før ændringer ses i registrene. \"Opret aktindsigtsdokument\" danner en samlet PDF med de afsnit fra sagen, du har markeret (som standard alle); dokumentet navngives med løbenummer og oprettelsesdato og lægges automatisk på fanen \"Dokumenter\"."
+          },
+          "image": "/images/sagsbehandler/Overblik_cut.png"
+        },
+        {
+          "id": "sagen-lejemaal",
+          "title": {
+            "en": "The case: Tenancy",
+            "da": "Sagen: Lejemål"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Lejemål\" vil der som regel stå en adresse, hvis sagen er indbragt via indbringelsesmodulet. Opretter du selv sagen, tilføjer du adressen ved at trykke \"Opret lejemål\" — enten via auto-complete (skriv starten af adressen, og vælg blandt forslagene) eller ved manuel indtastning."
+          },
+          "image": "/images/sagsbehandler/Lejemaal_cut.png"
+        },
+        {
+          "id": "sagen-parter",
+          "title": {
+            "en": "The case: Parties",
+            "da": "Sagen: Parter"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Parter\" vil der som regel stå parter, hvis sagen er indbragt via indbringelsesmodulet. Opretter du selv sagen, tilføjer du parter ved at trykke \"Opret part\" — det er muligt at oprette flere parter på samme sag. Du vælger først partstype (Indbringer, Medpart eller Modpart) og dernæst kategori (privatperson eller virksomhed), hvorefter du kan indtaste kontaktoplysninger: navn, CPR-nr., telefonnummer, e-mail og eventuelt hvilket lejemål parten hører til."
+          },
+          "image": "/images/sagsbehandler/Parter_cut.png"
+        },
+        {
+          "id": "sagen-detaljer",
+          "title": {
+            "en": "The case: Details",
+            "da": "Sagen: Detaljer"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Detaljer\" kan du notere oplysninger om klagen — hvad sagen handler om, og en kort beskrivelse af, hvad klagen drejer sig om. Er sagen indbragt via indbringelsesmodulet, vil der som regel allerede stå detaljer; ellers tilføjer du dem selv ved at trykke \"Rediger\"."
+          },
+          "image": "/images/sagsbehandler/Detaljer_cut.png"
+        },
+        {
+          "id": "sagen-dokumenter",
+          "title": {
+            "en": "The case: Documents",
+            "da": "Sagen: Dokumenter"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Dokumenter\" finder du sagens dokumenter. Du tilføjer selv et dokument ved at trykke \"Tilføj dokument\" og angive fil, titel og eventuelt hvilke parter dokumentet skal deles med (så er det muligt at have dokumenter på sagen, som ikke alle parter kan se). Markerer du et eller flere dokumenter, får du adgang til: \"Hent\" (download til egen pc), \"Del med\" (giv flere parter adgang), \"Sammenflet\" (flet de markerede filer til én samlet fil, kun synlig ved flere valgte filer) og \"Pseudonymisér\" (cleardox.io gennemgår dokumentet og overstreger personfølsomme oplysninger — du er selv ansvarlig for at tjekke, at alt relevant er overstreget, før dokumentet sendes videre; det pseudonymiserede dokument gemmes ved siden af originalen med tilføjelsen \"Pseudonymiseret\")."
+          },
+          "image": "/images/sagsbehandler/Dokumenter_cut.png"
+        },
+        {
+          "id": "sagen-notater",
+          "title": {
+            "en": "The case: Notes",
+            "da": "Sagen: Notater"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Notater\" kan du registrere notater på sagen til at orientere andre sagsbehandlere og nævnsmedlemmer. Tryk \"Opret notat\", skriv en overskrift og en tekst, og vælg om notatet skal deles med nævnsmedlemmer — dette kan også ændres bagefter ved at trykke \"Rediger\". Der kan oprettes flere notater på samme sag, men kun den, der har oprettet et notat, kan redigere i det. For hvert notat kan du se titel, oprettelsesdato, hvem der har oprettet det, og om det er delt med alle eller kun med sagsbehandlerne."
+          },
+          "image": "/images/sagsbehandler/Notater_cut.png"
+        },
+        {
+          "id": "sagen-beskeder",
+          "title": {
+            "en": "The case: Messages",
+            "da": "Sagen: Beskeder"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Beskeder\" kan du korrespondere med parterne. Parterne modtager en Digital Post, der beder dem logge ind på huslejenaevn.dk-indbringelsesmodulet for at svare. Deres svar havner i din \"Indbakke\"; beskeder, du selv har sendt, ligger under \"Udbakke\". På sagsoversigten er sager med en ny besked markeret med \"Ny besked\". Når du opretter en besked, vælger du modtager(e) — der kan være flere — og kan tilknytte dokumenter fra sagen til beskeden."
+          },
+          "image": "/images/sagsbehandler/Beskeder_cut.png"
+        },
+        {
+          "id": "sagen-forelaeggelse",
+          "title": {
+            "en": "The case: Presentation to the board",
+            "da": "Sagen: Forelæggelse"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Forelæggelse\" klargør du sagen til nævnsmedlemmerne. Du vælger, hvilke dokumenter der skal sendes til nævnsmodulet, og om der skal oprettes en besigtigelse.\n\nNår sagen er klar til behandling i nævnet, skifter du status til \"Klar til forelæggelse for nævn\". Herefter kan sekretariatslederen se, at sagen er klar, og vælge at tilføje den til en dagsorden."
+          },
+          "image": "/images/sagsbehandler/Forelaeggelse_cut.png"
+        },
+        {
+          "id": "sagen-afgoerelse",
+          "title": {
+            "en": "The case: Decision",
+            "da": "Sagen: Afgørelse"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når nævnet har behandlet sagen og truffet en afgørelse, skal du indberette resultatet på fanen \"Afgørelse\". Tryk \"Rediger\" for at udfylde oplysningerne. Bemærk: at udfylde \"Afgørelse\" indberetter ikke sagen som afsluttet — det gør du efterfølgende under \"Afslutning\".\n\nFørst angiver du dato og \"Afslutningsårsag\", som har betydning for, hvilke felter du efterfølgende skal udfylde:\n\n• Afsluttet uden afgørelse: vælges, hvis sagen henlægges, f.eks. fordi der mangler oplysninger, eller klagen er trukket tilbage. Her angiver du desuden en henlæggelsesårsag (Manglende dokumentation/oplysninger, Andet, eller Forlig/klage trukket tilbage).\n\n• Afsluttet med afgørelse om medhold: vælges, hvis nævnet har givet medhold i sagen. Her udfylder du lovgrundlag (loven kan udfoldes til at vælge en konkret paragraf, og der kan vælges flere paragraffer), medhold (udlejer, delt eller lejer), gebyrpålæggelse, huslejefastsættelsesdato, huslejefastsættelsesmetode (det lejedes værdi, omkostningsbestemt husleje eller fri leje), huslejekategori (årlig husleje pr. kvadratmeter eller månedlig husleje), huslejeangivelse (eksempelhusleje eller lejemålsspecifik husleje), areal (lejemålets bruttoareal) og husleje (den månedlige leje eller den årlige leje pr. kvadratmeter, afhængigt af hvad du har valgt ovenfor).\n\n• Afsluttet med afgørelse om afvisning: vælges, hvis klagen afvises. Her angiver du lovgrundlag og en afvisningsårsag (Manglende kompetence eller Andet).\n\n• Afsluttet med afgørelse om forlig: vælges, hvis sagen er afsluttet med et forlig mellem parterne. Her udfylder du samme felter som ved medhold: lovgrundlag, medhold, gebyrpålæggelse, huslejefastsættelsesdato, huslejefastsættelsesmetode, huslejekategori, huslejeangivelse, areal og husleje.\n\n• Afsluttet med afgørelse om delvist medhold: vælges, hvis indbringer har fået delvist medhold i klagen. Samme felter som ved medhold skal udfyldes."
+          },
+          "image": "/images/sagsbehandler/Afgoerelse_cut.png"
+        },
+        {
+          "id": "sagen-afslutning",
+          "title": {
+            "en": "The case: Closing",
+            "da": "Sagen: Afslutning"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når nævnet har truffet afgørelse, og du har udfyldt fanen \"Afgørelse\", kan du afslutte sagen. Tryk \"Rediger\" under fanen \"Afslutning\" for at angive dato og vælge \"Afsluttet som\": enten \"Afgjort\" eller \"Fejloprettet\". Når du trykker \"Afgjort\", opfylder du indberetningspligten, og sagen bliver synlig i afgørelses- og huslejeregistret — du kan ikke trykke \"Afgjort\" uden først at have valgt en afgørelsesform under \"Afgørelse\". Vælger du i stedet \"Fejloprettet\", er sagen ikke længere synlig for parterne.\n\nHer skal du desuden huske at skifte sagstrin til \"Offentliggør sag\" (den grønne knap øverst på siden), så sagen rent faktisk bliver offentliggjort."
+          },
+          "image": "/images/sagsbehandler/Afslutning_cut.png"
+        },
+        {
+          "id": "sagen-historik",
+          "title": {
+            "en": "The case: History",
+            "da": "Sagen: Historik"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Historik\" kan du se alle sagsbehandlere, der har tilgået sagen, og hvilke handlinger de har udført på den — med dato, bruger og handlingstype for hver linje."
+          },
+          "image": "/images/sagsbehandler/Historik_cut.png"
         }
       ]
     }
