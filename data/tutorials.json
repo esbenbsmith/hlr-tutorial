@@ -284,13 +284,26 @@
         {
           "id": "oversigten",
           "title": {
-            "en": "The overview page and choosing a board",
-            "da": "Oversigten og valg af nævn"
+            "en": "The overview page",
+            "da": "Oversigten"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Når du logger på huslejenævnet, er det første billede du ser oversigtsbilledet. Som sagsbehandler har du alene adgang til denne sektion. Tryk på \"Indbragte sager\" for at tilgå sagsoversigten.\n\nHvis du sagsbehandler for flere nævn, kan du øverst på oversigtssiden skifte nævn. Klik på de tre små prikker, så fremkommer listen med de nævn, du er sagsbehandler på. Tryk f.eks. på \"Københavns Kommune Huslejenævn\" for at vælge, hvilket nævn du vil sagsbehandle for."
-          }
+            "da": "Når du logger på huslejenævnet, er det første billede du ser oversigtsbilledet. Som sagsbehandler har du alene adgang til denne sektion. Tryk på \"Indbragte sager\" for at tilgå sagsoversigten."
+          },
+          "image": "/images/sagsbehandler/Landing_sagsbehandler_cut.png"
+        },
+        {
+          "id": "valg-af-naevn",
+          "title": {
+            "en": "Choosing a board",
+            "da": "Valg af nævn"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Hvis du sagsbehandler for flere nævn, kan du øverst på oversigtssiden skifte nævn. Klik på de tre små prikker, så fremkommer listen med de nævn, du er sagsbehandler på. Tryk f.eks. på \"Københavns Kommune Huslejenævn\" for at vælge, hvilket nævn du vil sagsbehandle for."
+          },
+          "image": "/images/sagsbehandler/Skift_naevn_cut.png"
         },
         {
           "id": "sagsoversigten",
@@ -301,7 +314,8 @@
           "content": {
             "en": "Content for this tutorial is coming soon.",
             "da": "På sagsoversigten kan du tilgå alle sager, som er relevante for det pågældende nævn, og oprette nye sager, hvis der er behov for det. Sager, som udlejer eller lejer har indbragt via huslejenaevn.dk (indbringelsesmodulet), oprettes automatisk. \"Opret sag\" bruges til sager, som ikke er modtaget via huslejenaevn.dk.\n\nI sagsoverblikket kan du se:\n\n• Løbenr.: Sagsnummeret i huslejenaevn.dk\n\n• Adresse: Adressen knyttet til sagen\n\n• Sagsbehandler: Den sagsbehandler, der er koblet til sagen (medarbejderen med sekretariatsleder-rollen tildeler sagsbehandlere til sagerne)\n\n• Sagstrin: Hvor i sagsforløbet sagen befinder sig (kun sekretariatslederen kan oprette og redigere sagstrin)\n\nDen sidste kolonne viser, om gebyret er betalt: enten \"Betalt\" eller \"Manglende betaling\".\n\nDu kan sætte filter, så du ikke ser alle sagerne — tryk på \"Vis filtre\". Du kan filtrere på bl.a. sagsbehandler, status, sagstrin, indbragt/afgjort i perioden, indbringer, afslutningsårsag, medhold og lovhjemmel. Der er desuden tre hurtige til/fra-filtre: \"Vis kun mine sager\", \"Vis kun sager med nye beskeder\" og \"Vis kun sager med varsel eller alarm\"."
-          }
+          },
+          "image": "/images/sagsbehandler/Indbragte_sager_cut.png"
         },
         {
           "id": "sagen-overblik",
