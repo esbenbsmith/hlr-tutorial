@@ -41,7 +41,7 @@
             "en": "This step shows the \"image\" field — see data/tutorials.json.",
             "da": "Dit nævn kan vælge mellem:\n\n• At bruge hele systemet, dvs. både indbringelse, sagsbehandling og indberetning til registrene sker i samme system.\n\n• At modtage indbringelser i systemet og indberette afgørelserne i system, men at gennemføre sagsbehandling i et af kommunerne/nævnets eget systemer.\n\n• At bruge indberetningsmodulet til indberetning af sagerne/afgørelserne."
           },
-          "image": "/images/welcome.svg"
+          "image": "/images/hvad-er-hlr/tilvalg-modeller.svg"
         }
       ]
     },
@@ -73,7 +73,7 @@
             "en": "This step shows the \"video\" field with type \"vimeo\" — see data/tutorials.json.",
             "da": "Er du MitID administrator, så tildeler du roller til løsningen ved at tilgå din brugerprofil på MitID Erhverv. Dette gør du ved at logge på enten:\n\n- https://mitid-erhverv.dk/\n\n- https://erhvervsadministration.nemlog-in.dk.\n\n- Eller ved at tilgå din MitID-profil via Mit virk på: https://virk.dk/.\n\nDu kan som administrator også modtage en e-mail, når en bruger har anmodet om rettigheder i løsningen. Via klokkeikonet øverst på din profil, kan du se de brugere, som kræver handling (se vejledning for hvordan brugere anmoder om adgange: Vejledning til login med NemLog-in til publiceringsmodul på huslejenaevn.dk). Fremsøg/-find den bruger, som skal have tildelt rettigheder til løsningen via menuen ”Brugere”."
           },
-          "image": "/images/welcome.svg"
+          "image": "/images/hvordan-kommer-jeg-ind/MitID_Erhverv_cut.png"
         },
         {
           "id": "example-vimeo",

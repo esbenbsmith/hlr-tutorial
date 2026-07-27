@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f5c16" />
+    </marker>
+  </defs>
+
+  <rect width="900" height="400" fill="#ffffff" />
+
+  <text x="450" y="22" text-anchor="middle" font-size="16" fill="#707070">Kommunens muligheder for brug af HLR</text>
+
+  <text x="295" y="60" text-anchor="middle" font-size="15" font-weight="600" fill="#444444">Indbringelse</text>
+  <text x="505" y="60" text-anchor="middle" font-size="15" font-weight="600" fill="#444444">Sagsbehandling</text>
+  <text x="715" y="60" text-anchor="middle" font-size="15" font-weight="600" fill="#444444">Indberetning</text>
+  <line x1="190" y1="72" x2="820" y2="72" stroke="#dddddd" stroke-width="1" />
+
+  <!-- Row 1: Hele systemet — all three phases in HLR -->
+  <text x="10" y="124" font-size="13" font-weight="600" fill="#333333">1. Hele systemet</text>
+
+  <rect x="200" y="85" width="190" height="70" rx="8" fill="#44831e" />
+  <text x="295" y="127" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">HLR</text>
+  <line x1="390" y1="120" x2="410" y2="120" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+  <rect x="410" y="85" width="190" height="70" rx="8" fill="#44831e" />
+  <text x="505" y="127" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">HLR</text>
+  <line x1="600" y1="120" x2="620" y2="120" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+  <rect x="620" y="85" width="190" height="70" rx="8" fill="#44831e" />
+  <text x="715" y="127" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">HLR</text>
+
+  <!-- Row 2: Egen sagsbehandling — case processing happens outside HLR -->
+  <text x="10" y="234" font-size="13" font-weight="600" fill="#333333">2. Egen sagsbehandling</text>
+
+  <rect x="200" y="195" width="190" height="70" rx="8" fill="#44831e" />
+  <text x="295" y="237" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">HLR</text>
+  <line x1="390" y1="230" x2="410" y2="230" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+  <rect x="410" y="195" width="190" height="70" rx="8" fill="#f7f7f7" stroke="#999999" stroke-width="2" stroke-dasharray="6 4" />
+  <text x="505" y="237" text-anchor="middle" font-size="15" fill="#707070">Eget system</text>
+  <line x1="600" y1="230" x2="620" y2="230" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+  <rect x="620" y="195" width="190" height="70" rx="8" fill="#44831e" />
+  <text x="715" y="237" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">HLR</text>
+
+  <!-- Row 3: Kun indberetning — only the reporting module is used in HLR -->
+  <text x="10" y="344" font-size="13" font-weight="600" fill="#333333">3. Kun indberetning</text>
+
+  <rect x="200" y="305" width="190" height="70" rx="8" fill="#f7f7f7" stroke="#999999" stroke-width="2" stroke-dasharray="6 4" />
+  <text x="295" y="347" text-anchor="middle" font-size="15" fill="#707070">Eget system</text>
+  <line x1="390" y1="340" x2="410" y2="340" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+  <rect x="410" y="305" width="190" height="70" rx="8" fill="#f7f7f7" stroke="#999999" stroke-width="2" stroke-dasharray="6 4" />
+  <text x="505" y="347" text-anchor="middle" font-size="15" fill="#707070">Eget system</text>
+  <line x1="600" y1="340" x2="620" y2="340" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow2)" />
+
+  <rect x="620" y="305" width="190" height="70" rx="8" fill="#44831e" />
+  <text x="715" y="347" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">HLR</text>
+</svg>
