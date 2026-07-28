@@ -10,6 +10,18 @@ const UI_TEXT: Record<Locale, { stepOf: string; back: string; next: string; allT
   da: { stepOf: "Trin {n} af {total}", back: "Tilbage", next: "Næste", allTutorials: "Alle vejledninger" },
 };
 
+function renderWithBold(text: string) {
+  return text.split(/\*\*(.+?)\*\*/g).map((part, i) =>
+    i % 2 === 1 ? (
+      <strong key={i} className="font-semibold text-[var(--text-primary)]">
+        {part}
+      </strong>
+    ) : (
+      part
+    )
+  );
+}
+
 export async function generateStaticParams() {
   const params: { locale: string; tutorial: string; step: string }[] = [];
   for (const locale of LOCALES) {
@@ -112,7 +124,7 @@ export default async function StepPage({
 
       <div className="mb-8 space-y-3 text-sm leading-relaxed text-[var(--text-secondary)]">
         {step.content[locale].split(/\n\s*\n/).map((paragraph, i) => (
-          <p key={i}>{paragraph}</p>
+          <p key={i}>{renderWithBold(paragraph)}</p>
         ))}
       </div>
 
