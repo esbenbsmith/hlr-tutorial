@@ -385,9 +385,21 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "På fanen \"Dokumenter\" finder du sagens dokumenter. Du tilføjer selv et dokument ved at trykke \"Tilføj dokument\" og angive fil, titel og eventuelt hvilke parter dokumentet skal deles med (så er det muligt at have dokumenter på sagen, som ikke alle parter kan se). Markerer du et eller flere dokumenter, får du adgang til: \"Hent\" (download til egen pc), \"Del med\" (giv flere parter adgang), \"Sammenflet\" (flet de markerede filer til én samlet fil, kun synlig ved flere valgte filer) og \"Pseudonymisér\" (cleardox.io gennemgår dokumentet og overstreger personfølsomme oplysninger — du er selv ansvarlig for at tjekke, at alt relevant er overstreget, før dokumentet sendes videre; det pseudonymiserede dokument gemmes ved siden af originalen med tilføjelsen \"Pseudonymiseret\")."
+            "da": "På fanen \"Dokumenter\" finder du sagens dokumenter. Du tilføjer selv et dokument ved at trykke \"Tilføj dokument\" og angive fil, titel og eventuelt hvilke parter dokumentet skal deles med (så er det muligt at have dokumenter på sagen, som ikke alle parter kan se)."
           },
           "image": "/images/sagsbehandler/Dokumenter_cut.png"
+        },
+        {
+          "id": "dokumenter-markeret",
+          "title": {
+            "en": "Documents: Selected",
+            "da": "Dokumenter: Markeret"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Markerer du et eller flere dokumenter, får du adgang til: \"Hent\" (download til egen pc), \"Del med\" (giv flere parter adgang), \"Sammenflet\" (flet de markerede filer til én samlet fil, kun synlig ved flere valgte filer) og \"Pseudonymisér\" (cleardox.io gennemgår dokumentet og overstreger personfølsomme oplysninger — du er selv ansvarlig for at tjekke, at alt relevant er overstreget, før dokumentet sendes videre; det pseudonymiserede dokument gemmes ved siden af originalen med tilføjelsen \"Pseudonymiseret\")."
+          },
+          "image": "/images/sagsbehandler/Dokumenter_klik_cut.png"
         },
         {
           "id": "sagen-notater",
