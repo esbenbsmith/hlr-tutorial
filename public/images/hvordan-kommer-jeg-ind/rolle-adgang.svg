@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="400" fill="#ffffff" />
+
+  <text x="450" y="22" text-anchor="middle" font-size="16" fill="#707070">Adgangsrettigheder pr. rolle</text>
+
+  <text x="370" y="60" text-anchor="middle" font-size="15" font-weight="600" fill="#444444">Sagsbehandlingsmodulet</text>
+  <text x="710" y="60" text-anchor="middle" font-size="15" font-weight="600" fill="#444444">Publiceringsmodulet</text>
+  <line x1="210" y1="72" x2="860" y2="72" stroke="#dddddd" stroke-width="1" />
+
+  <!-- Row 1: Sekretariatsleder — access to both -->
+  <text x="10" y="124" font-size="13" font-weight="600" fill="#333333">Sekretariatsleder</text>
+
+  <rect x="220" y="85" width="300" height="70" rx="8" fill="#44831e" />
+  <text x="370" y="127" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">Adgang</text>
+
+  <rect x="560" y="85" width="300" height="70" rx="8" fill="#44831e" />
+  <text x="710" y="127" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">Adgang</text>
+
+  <!-- Row 2: Sagsbehandler — access to both -->
+  <text x="10" y="234" font-size="13" font-weight="600" fill="#333333">Sagsbehandler</text>
+
+  <rect x="220" y="195" width="300" height="70" rx="8" fill="#44831e" />
+  <text x="370" y="237" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">Adgang</text>
+
+  <rect x="560" y="195" width="300" height="70" rx="8" fill="#44831e" />
+  <text x="710" y="237" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">Adgang</text>
+
+  <!-- Row 3: Administrativ medarbejder — Publiceringsmodulet only -->
+  <text x="10" y="344" font-size="13" font-weight="600" fill="#333333">Administrativ medarbejder</text>
+
+  <rect x="220" y="305" width="300" height="70" rx="8" fill="#f7f7f7" stroke="#999999" stroke-width="2" stroke-dasharray="6 4" />
+  <text x="370" y="347" text-anchor="middle" font-size="15" fill="#707070">Ingen adgang</text>
+
+  <rect x="560" y="305" width="300" height="70" rx="8" fill="#44831e" />
+  <text x="710" y="347" text-anchor="middle" font-size="20" font-weight="600" fill="#ffffff">Adgang</text>
+</svg>

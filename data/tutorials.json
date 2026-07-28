@@ -39,7 +39,7 @@
           },
           "content": {
             "en": "This step shows the \"image\" field — see data/tutorials.json.",
-            "da": "Dit nævn kan vælge mellem:\n\n• At bruge hele systemet, dvs. både indbringelse, sagsbehandling og indberetning til registrene sker i samme system.\n\n• At modtage indbringelser i systemet og indberette afgørelserne i system, men at gennemføre sagsbehandling i et af kommunerne/nævnets eget systemer.\n\n• At bruge indberetningsmodulet til indberetning af sagerne/afgørelserne."
+            "da": "Dit nævn kan vælge mellem:\n\n• At bruge hele systemet, dvs. både indbringelse, sagsbehandling og indberetning til registrene sker i samme system.\n\n• At modtage indbringelser i systemet og indberette afgørelserne i system, men at gennemføre sagsbehandling i et af kommunerne/nævnets eget systemer.\n\n• At bruge Publiceringsmodulet til indberetning af sagerne/afgørelserne."
           },
           "image": "/images/hvad-er-hlr/tilvalg-modeller.svg"
         }
@@ -60,8 +60,9 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Før en bruger i din organisation kan tilgå sagsbehandlingsmodulet, publiceringsmodulet eller kontrolpanelet, der ligger (eller senere kommer til at ligge) under Huslejenævn.dk, skal brugerne have tildelt roller, der giver adgang til f.eks. at redigere i de forskellige dele af løsningen. En MitID administrator i din organisation kan tildele roller med de relevante rettigheder til brugere i din organisation på MitID Erhverv."
-          }
+            "da": "Før en bruger i din organisation kan tilgå sagsbehandlingsmodulet eller publiceringsmodulet, skal brugerne have tildelt roller, der giver adgang til f.eks. at redigere i de forskellige dele af løsningen. En MitID administrator i din organisation kan tildele roller med de relevante rettigheder til brugere i din organisation på MitID Erhverv."
+          },
+          "image": "/images/hvordan-kommer-jeg-ind/rolle-adgang.svg"
         },
         {
           "id": "example-vimeo",
@@ -199,7 +200,8 @@
           "content": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Der findes to roller i Huslejenaevn.dk, som kan bruge sagsbehandlingsmodulet: \"Sagsbehandler\" og \"Sekretariatsleder\".\n\nRollen som sekretariatsleder har flere funktioner end rollen som sagsbehandler. Den gives til den/dem, der har en administrativ opgave i nævnet — dvs. står for at fordele sagerne ud på sagsbehandlerne, definere sagstrinene og oprette nævnsmøder m.v.\n\nUanset hvilken rolle du har, logger du på via samme link/adgang — det er rollen, du er tildelt, der bestemmer, hvad du får adgang til.\n\nDenne vejledning er til \"Sekretariatsleder\"-rollen.\n\nDu får adgang ved at bede din MitID-administrator (som oftest arbejder i din organisation) om at oprette dig med \"Sekretariatsleder\"-rollen via MitID Erhverv. Skal der ske ændringer i dine roller, skal du også kontakte MitID-administratoren i din organisation. Du skal bruge dit MitID Erhverv, hver gang du logger på huslejenaevn.dk-sagsbehandlingsmodulet."
-          }
+          },
+          "image": "/images/sekretariatsleder/Oversigt_cut.png"
         },
         {
           "id": "oversigten",
@@ -245,7 +247,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "På fanen \"Nævnsmedlemmer\" kan du invitere nævnsmedlemmer til at få adgang til nævnsmodulet. Selvom et nævnsmedlem har adgang til nævnsmodulet, kan det alene se de dokumenter og sager, som en sagsbehandler har givet det adgang til — et nævnsmedlem får altså ikke automatisk adgang til sagerne i nævnet, blot fordi det er tildelt adgang til nævnet.\n\nDu opretter et nævnsmedlem ved at trykke \"Opret nævnsmedlem\" og angive navn og e-mailadresse. Herefter sendes en invitation, og nævnsmedlemmet modtager en e-mail med vejledning i at oprette sig — de skal bl.a. sætte en to-faktor-autentificering op via app'en \"FreeOTP\", som skal bruges hver gang de logger ind på naevn.huslejenaevn.dk. Nævnsmedlemmer skal oprettes for hvert nævn, de skal have adgang til."
+            "da": "På fanen \"Nævnsmedlemmer\" kan du invitere nævnsmedlemmer til at få adgang til nævnsmodulet. Selvom et nævnsmedlem har adgang til nævnsmodulet, kan det alene se de dokumenter og sager, som en sagsbehandler har givet det adgang til — et nævnsmedlem får altså ikke automatisk adgang til sagerne i nævnet, blot fordi det er tildelt adgang til nævnet.\n\nDu opretter et nævnsmedlem ved at trykke \"Opret nævnsmedlem\" og angive navn og e-mailadresse. Herefter sendes en invitation, og nævnsmedlemmet modtager en e-mail med vejledning i at oprette sig — de skal bl.a. sætte en to-faktor-autentificering op via app'en \"FreeOTP\", som skal bruges hver gang de logger ind på naevn.huslejenaevn.dk."
           },
           "image": "/images/sekretariatsleder/Naevnsmedlemmer_cut.png"
         },
@@ -279,7 +281,8 @@
           "content": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Der findes to roller i Huslejenaevn.dk, som kan bruge sagsbehandlingsmodulet: \"Sagsbehandler\" og \"Sekretariatsleder\".\n\nRollen som sagsbehandler gives til de medarbejdere i nævnet, som skal sagsbehandle sagerne. Rollen som sekretariatsleder gives til medarbejdere, som også har flere administrative opgaver i nævnet, eksempelvis fordeling af sager til medarbejdere og administration af nævnsmedlemmerne. Det er samme link, der bruges til at logge på systemet, uanset hvilken af de to roller man har — det er rollen, der afgør, hvilken funktionalitet man har adgang til. MitID Erhverv skal bruges, hver gang man logger på.\n\nDenne vejledning er til \"Sagsbehandler\"-rollen.\n\nDu får adgang ved at bede din MitID-administrator (som oftest arbejder i din organisation) om at oprette dig med \"Sagsbehandler\"-rollen via MitID Erhverv. Skal der ske ændringer i dine roller, skal du også kontakte MitID-administratoren i din organisation."
-          }
+          },
+          "image": "/images/sagsbehandler/Landing_sagsbehandler_cut.png"
         },
         {
           "id": "oversigten",
@@ -325,7 +328,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Når du åbner en specifik sag, lander du på \"Overblik\". Her ser du sagsnummeret og hvilket trin i sagsbehandlingen sagen befinder sig i. Mærkatet \"Manglende offentliggørelse\" betyder, at sagen ikke er offentliggjort endnu; \"Manglende betaling\" fortæller, om gebyret er betalt.\n\nUnder løbenummeret findes en række faner (Overblik, Lejemål, Parter m.fl.), som du bruger til at skifte mellem sagens forskellige dele."
+            "da": "Når du åbner en specifik sag, lander du på \"Overblik\". Her ser du sagsbehandlingsmodulets sagsnummer og hvilket trin i sagsbehandlingen sagen befinder sig i. Mærkatet \"Manglende offentliggørelse\" betyder, at sagen ikke er offentliggjort endnu; \"Manglende betaling\" fortæller, om gebyret er betalt.\n\nUnder løbenummeret findes en række faner (Overblik, Lejemål, Parter m.fl.), som du bruger til at skifte mellem sagens forskellige dele."
           },
           "image": "/images/sagsbehandler/Overblik2_cut.png"
         },
