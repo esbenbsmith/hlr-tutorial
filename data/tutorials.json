@@ -325,9 +325,21 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Når du åbner en specifik sag, lander du på \"Overblik\". Her ser du sagsnummeret og hvilket trin i sagsbehandlingen sagen befinder sig i. Mærkaten \"Manglende offentliggørelse\" betyder, at sagen ikke er offentliggjort endnu; \"Manglende betaling\" fortæller, om gebyret er betalt.\n\nUnder løbenummeret findes en række faner (Overblik, Lejemål, Parter m.fl.), som du bruger til at skifte mellem sagens forskellige dele.\n\nDen grønne knap har to funktioner: klikker du på selve teksten \"Skift sagstrin\", kan du skifte sagstrin. Klikker du på pilen til højre, finder du i stedet funktionerne \"Registrer betaling\", \"Offentliggør sag\" og \"Opret aktindsigtsdokument\".\n\n\"Registrer betaling\" lader dig gemme, hvornår en sags gebyr anses for betalt. \"Offentliggør sag\" bruges til at indberette, at en sag er blevet indbragt, og derved opfylde indberetningspligten — vær opmærksom på, at der kan gå et par minutter, før ændringer ses i registrene. \"Opret aktindsigtsdokument\" danner en samlet PDF med de afsnit fra sagen, du har markeret (som standard alle); dokumentet navngives med løbenummer og oprettelsesdato og lægges automatisk på fanen \"Dokumenter\"."
+            "da": "Når du åbner en specifik sag, lander du på \"Overblik\". Her ser du sagsnummeret og hvilket trin i sagsbehandlingen sagen befinder sig i. Mærkatet \"Manglende offentliggørelse\" betyder, at sagen ikke er offentliggjort endnu; \"Manglende betaling\" fortæller, om gebyret er betalt.\n\nUnder løbenummeret findes en række faner (Overblik, Lejemål, Parter m.fl.), som du bruger til at skifte mellem sagens forskellige dele."
           },
           "image": "/images/sagsbehandler/Overblik2_cut.png"
+        },
+        {
+          "id": "groenne-knap",
+          "title": {
+            "en": "The green button",
+            "da": "Den grønne knap"
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Den grønne knap har to funktioner: klikker du på selve teksten \"Skift sagstrin\", kan du skifte sagstrin. Klikker du på pilen til højre, finder du i stedet funktionerne \"Registrer betaling\", \"Offentliggør sag\" og \"Opret aktindsigtsdokument\".\n\n\"Registrer betaling\" lader dig gemme, hvornår et sagsgebyr anses for betalt. \"Offentliggør sag\" bruges til at indberette, at en sag er blevet indbragt, og derved opfylde indberetningspligten — vær opmærksom på, at der kan gå et par minutter, før ændringer ses i registrene. \"Opret aktindsigtsdokument\" danner en samlet PDF med de afsnit fra sagen, du har markeret (som standard alle); dokumentet navngives med løbenummer og oprettelsesdato og lægges automatisk på fanen \"Dokumenter\"."
+          },
+          "image": "/images/sagsbehandler/Right-arrow-click_cut.png"
         },
         {
           "id": "sagen-lejemaal",
