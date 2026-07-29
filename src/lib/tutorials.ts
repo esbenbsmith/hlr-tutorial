@@ -14,6 +14,7 @@ export type StepVideo =
 export type Step = {
   id: string;
   title: LocalizedText;
+  caption?: LocalizedText;
   content: LocalizedText;
   image?: string;
   video?: StepVideo;
@@ -52,6 +53,9 @@ function validateStep(raw: unknown, tutorialLabel: string, index: number): Step 
     throw new Error(`${label}: missing "id"`);
   }
   assertLocalizedText(step.title, "title", label);
+  if (step.caption !== undefined) {
+    assertLocalizedText(step.caption, "caption", label);
+  }
   assertLocalizedText(step.content, "content", label);
 
   if (step.image !== undefined && typeof step.image !== "string") {

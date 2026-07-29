@@ -13,9 +13,13 @@
             "en": "What is HLR?",
             "da": "Hvad er HLR?"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "HLR er en samlet digital løsning til indbringelse, sagsbehandling, og indberetning af husleje- og beboerklagenævnssager."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "HLR er en samlet digital løsning til indbringelse, sagsbehandling, og indberetning af husleje- og beboerklagenævnssager. Løsningen består af tre moduler: Indbringelsesmodulet, Sagsbehandlingsmodulet og Publiceringsmodulet. Publiceringsmodulet bruges til indberetning af afgørelser."
+            "da": "Løsningen består af tre moduler: Indbringelsesmodulet, Sagsbehandlingsmodulet og Publiceringsmodulet. Publiceringsmodulet bruges til indberetning af afgørelser."
           },
           "image": "/images/hvad-er-hlr/system-oversigt.svg"
         },
@@ -25,9 +29,13 @@
             "en": "Example: step with an image",
             "da": "Hvad er obligatorisk for kommunerne at bruge?"
           },
+          "caption": {
+            "en": "This step shows the \"image\" field — see data/tutorials.json.",
+            "da": "For husleje- og beboerklagenævnene i kommunerne er det udelukkende indberetningsfunktionen (”Publiceringsmodulet”) som er obligatorisk. Det kan tilgås på publicer.huslejenaevn.dk."
+          },
           "content": {
             "en": "This step shows the \"image\" field — see data/tutorials.json.",
-            "da": "For husleje- og beboerklagenævnene i kommunerne er det udelukkende indberetningsfunktionen (”Publiceringsmodulet”) som er obligatorisk. Det kan tilgås på publicer.huslejenaevn.dk. Det er lovpligtigt at indberette sagen senest 14 dage efter sagen er indbragt, og senest 14 dage efter afgørelsen er truffet. Indbringelsesmodulet og sagsbehandlingsmodulet er valgfrie."
+            "da": "Det er lovpligtigt at indberette sagen senest 14 dage efter sagen er indbragt, og senest 14 dage efter afgørelsen er truffet. Indbringelsesmodulet og sagsbehandlingsmodulet er valgfrie."
           },
           "image": "/images/hvad-er-hlr/system-oversigt.svg"
         },
@@ -37,9 +45,13 @@
             "en": "Example: step with an image",
             "da": "Hvad kan kommunerne tilvælge?"
           },
+          "caption": {
+            "en": "This step shows the \"image\" field — see data/tutorials.json.",
+            "da": "Kommunerne kan vælge en fuld tilkobling, en delvis tilkobling, eller vælge minimumsløsningen som er lovpligtig."
+          },
           "content": {
             "en": "This step shows the \"image\" field — see data/tutorials.json.",
-            "da": "Dit nævn kan vælge mellem:\n\n• At bruge hele systemet, dvs. både indbringelse, sagsbehandling og indberetning til registrene sker i samme system.\n\n• At modtage indbringelser i systemet og indberette afgørelserne i system, men at gennemføre sagsbehandling i et af kommunerne/nævnets eget systemer.\n\n• At bruge Publiceringsmodulet til indberetning af sagerne/afgørelserne."
+            "da": "Dit nævn kan vælge mellem:\n\n• At bruge hele systemet, dvs. både indbringelse, sagsbehandling og indberetning til registrene sker i samme system.\n\n• At modtage indbringelser i systemet og indberette afgørelserne i systemet, men at gennemføre sagsbehandling i et af kommunerne/nævnets egne systemer.\n\n• At bruge Publiceringsmodulet til den lovpligtige indberetning af sagerne/afgørelserne."
           },
           "image": "/images/hvad-er-hlr/tilvalg-modeller.svg"
         }
@@ -57,6 +69,10 @@
           "title": {
             "en": "How do I get access to HLR?",
             "da": "Hvordan kommer jeg ind på HLR?"
+          },
+          "caption": {
+            "en": "This step shows the \"image\" field — see data/tutorials.json.",
+            "da": "Du skal via MitID Erhverv, have tildelt en af tre roller, for at bruge systemet."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",

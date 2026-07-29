@@ -96,6 +96,12 @@ export default async function StepPage({
 
       <h1 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">{step.title[locale]}</h1>
 
+      {step.caption && (
+        <p className="mb-4 text-sm leading-relaxed text-[var(--text-primary)]">
+          {renderWithBold(step.caption[locale])}
+        </p>
+      )}
+
       {step.image && (
         // eslint-disable-next-line @next/next/no-img-element -- path comes from JSON content, dimensions vary per step
         <img
