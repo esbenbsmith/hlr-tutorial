@@ -72,7 +72,7 @@
           },
           "caption": {
             "en": "This step shows the \"image\" field — see data/tutorials.json.",
-            "da": "Du skal via MitID Erhverv, have tildelt en af tre roller, for at bruge systemet."
+            "da": "Du skal via MitID Erhverv, have tildelt en af tre roller, for at bruge systemet. Sekretariatsleder, Sagsbehandler, eller Administrativ medarbejder."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
