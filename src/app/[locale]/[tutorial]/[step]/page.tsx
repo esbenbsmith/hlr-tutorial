@@ -22,6 +22,37 @@ function renderWithBold(text: string) {
   );
 }
 
+function renderParagraphs(text: string) {
+  const blocks: React.ReactNode[] = [];
+  let currentList: string[] = [];
+  let key = 0;
+
+  const flushList = () => {
+    if (currentList.length === 0) return;
+    blocks.push(
+      <ul key={key++} className="list-disc space-y-1 pl-5">
+        {currentList.map((item, i) => (
+          <li key={i}>{renderWithBold(item)}</li>
+        ))}
+      </ul>
+    );
+    currentList = [];
+  };
+
+  for (const paragraph of text.split(/\n\s*\n/)) {
+    const bulletMatch = paragraph.match(/^[•-]\s+([\s\S]*)$/);
+    if (bulletMatch) {
+      currentList.push(bulletMatch[1]);
+    } else {
+      flushList();
+      blocks.push(<p key={key++}>{renderWithBold(paragraph)}</p>);
+    }
+  }
+  flushList();
+
+  return blocks;
+}
+
 export async function generateStaticParams() {
   const params: { locale: string; tutorial: string; step: string }[] = [];
   for (const locale of LOCALES) {
@@ -97,9 +128,9 @@ export default async function StepPage({
       <h1 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">{step.title[locale]}</h1>
 
       {step.caption && (
-        <p className="mb-4 text-sm leading-relaxed text-[var(--text-primary)]">
-          {renderWithBold(step.caption[locale])}
-        </p>
+        <div className="mb-4 space-y-3 text-sm leading-relaxed text-[var(--text-primary)]">
+          {renderParagraphs(step.caption[locale])}
+        </div>
       )}
 
       {step.image && (
@@ -128,11 +159,11 @@ export default async function StepPage({
           </div>
         ))}
 
-      <div className="mb-8 space-y-3 text-sm leading-relaxed text-[var(--text-secondary)]">
-        {step.content[locale].split(/\n\s*\n/).map((paragraph, i) => (
-          <p key={i}>{renderWithBold(paragraph)}</p>
-        ))}
-      </div>
+      {step.content && (
+        <div className="mb-8 space-y-3 text-sm leading-relaxed text-[var(--text-secondary)]">
+          {renderParagraphs(step.content[locale])}
+        </div>
+      )}
 
       <div className="mt-auto flex items-center justify-between border-t border-[var(--border)] pt-4">
         {prevHref ? (

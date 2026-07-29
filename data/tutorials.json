@@ -162,10 +162,31 @@
             "en": "Front page and navigation",
             "da": "Forsiden og navigation"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Efter login vises Publiceringsmodulets forside, \"Sager og afgørelser\". Her kan du oprette nye publiceringer, se en liste over eksisterende publiceringer og søge blandt dem. Du kan se publiceringer for den kommune, du arbejder i, samt for kommuner, som din kommune har bemyndigelse til at behandle på vegne af."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Efter login vises Publiceringsmodulets forside, \"Sager og afgørelser\". Her kan du oprette nye publiceringer, se en liste over eksisterende publiceringer og søge blandt dem. Du kan se publiceringer for den kommune, du arbejder i, samt for kommuner, som din kommune har bemyndigelse til at behandle på vegne af.\n\nHeaderen er statisk, men indeholder tre funktioner: portal-logoet (leder tilbage til forsiden), knappen \"Log af\" (ved 30 minutters inaktivitet logges du automatisk af — du advares 5 minutter før), og menupunktet \"Publiceringer\" (leder også til forsiden).\n\nI søgefeltet kan du finde en publicering på:\n\n• Løbenummer (alle cifre er nødvendige, fx 101-13365)\n\n• Adresse (komplet eller delvis, fx \"Holmens Kanal\")\n\n• Publiceringsnummer (alle cifre er nødvendige)\n\n• Sagsnummer (alle cifre er nødvendige)\n\n• Afgørelsesnummer (alle cifre er nødvendige)\n\nListen sorteres som standard efter løbenummer, med de nyeste publiceringer øverst. Hver række viser adresse(r), offentliggørelsesdato, tilgængelighed og sagsstatus, samt et link til at redigere publiceringen. Er der mere end 15 publiceringer, vises paginering nederst på siden."
-          }
+            "da": "Headeren er statisk, men indeholder tre funktioner: portal-logoet (leder tilbage til forsiden), knappen \"Log af\" (ved 30 minutters inaktivitet logges du automatisk af — du advares 5 minutter før), og menupunktet \"Publiceringer\" (leder også til forsiden).\n\nI søgefeltet kan du finde en publicering på:\n\n• Løbenummer (alle cifre er nødvendige, fx 101-13365)\n\n• Adresse (komplet eller delvis, fx \"Holmens Kanal\")\n\n• Publiceringsnummer (alle cifre er nødvendige)\n\n• Sagsnummer (alle cifre er nødvendige)\n\n• Afgørelsesnummer (alle cifre er nødvendige)\n\nListen sorteres som standard efter løbenummer, med de nyeste publiceringer øverst. Hver række viser adresse(r), offentliggørelsesdato, tilgængelighed og sagsstatus, samt et link til at redigere publiceringen. Er der mere end 15 publiceringer, vises paginering nederst på siden."
+          },
+          "image": "/images/publiceringsmodulet/Publicer_cut.png"
+        },
+        {
+          "id": "opret-vaelg-kommune",
+          "title": {
+            "en": "Create a new publication: choose municipality",
+            "da": "Opret ny publicering: Vælg kommune"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Tryk på \"Opret ny publicering\" på forsiden for at starte en ny publicering. Hvis din kommune har bemyndigelse til at behandle sager for andre kommuner, skal du først vælge, hvilken kommune publiceringen hører til."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Ovenfor kan du se, hvordan du vælger kommune."
+          },
+          "image": "/images/publiceringsmodulet/Kommune_valg_cut.png"
         },
         {
           "id": "om-lejemaal",
@@ -173,10 +194,15 @@
             "en": "Create a new publication: about the tenancy",
             "da": "Opret ny publicering: Om lejemål"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Oprettelsen består af op til fire trin, som du kan se og navigere mellem i trinviseren i venstre side. Du kan også bruge \"Næste trin\"-knappen nederst på hvert trin (findes ikke på det sidste trin).\n\nEn publicering er først gemt, når du trykker \"Gem\" i øverste højre hjørne — bevæger du dig væk uden at gemme, går ændringerne siden sidste gem tabt. Pilen ved \"Gem\"-knappen giver også mulighed for \"Gem og afslut\", som gemmer og sender dig tilbage til forsiden. Når en publicering gemmes for første gang, får den automatisk tildelt et løbenummer."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Tryk på \"Opret ny publicering\" på forsiden for at starte en ny publicering. Hvis din kommune har bemyndigelse til at behandle sager for andre kommuner, skal du først vælge, hvilken kommune publiceringen hører til.\n\nOprettelsen består af op til fire trin, som du kan se og navigere mellem i trinviseren i venstre side. Du kan også bruge \"Næste trin\"-knappen nederst på hvert trin (findes ikke på det sidste trin).\n\nEn publicering er først gemt, når du trykker \"Gem\" i øverste højre hjørne — bevæger du dig væk uden at gemme, går ændringerne siden sidste gem tabt. Pilen ved \"Gem\"-knappen giver også mulighed for \"Gem og afslut\", som gemmer og sender dig tilbage til forsiden. Når en publicering gemmes for første gang, får den automatisk tildelt et løbenummer.\n\nDet første trin, \"Om lejemål\", er hvor du tilføjer alle adresser, publiceringen vedrører — der er ingen begrænsning på antallet. Adresser kan tilføjes automatisk via opslag i Danmarks Adresseregister (DAR): begynd at skrive adressen i søgefeltet, og vælg blandt forslagene. Findes adressen ikke i DAR, kan den tilføjes manuelt via knappen \"Tilføj adresse manuelt\" — her skal alle felter, inklusive BFE-numre, udfyldes manuelt.\n\nDe obligatoriske adressefelter er vejnavn, husnummer, postnummer og postnummerdistrikt. Etage, dør, supplerende bynavn, kommunekode og BFE-numre er valgfrie. Mangler eller er et felt forkert udfyldt, markeres det med rødt og en fejltekst."
-          }
+            "da": "Det første trin, \"Om lejemål\", er hvor du tilføjer alle adresser, publiceringen vedrører — der er ingen begrænsning på antallet. Adresser kan tilføjes automatisk via opslag i Danmarks Adresseregister (DAR): begynd at skrive adressen i søgefeltet, og vælg blandt forslagene. Findes adressen ikke i DAR, kan den tilføjes manuelt via knappen \"Tilføj adresse manuelt\" — her skal alle felter, inklusive BFE-numre, udfyldes manuelt.\n\nDe obligatoriske adressefelter er vejnavn, husnummer, postnummer og postnummerdistrikt. Etage, dør, supplerende bynavn, kommunekode og BFE-numre er valgfrie. Mangler eller er et felt forkert udfyldt, markeres det med rødt og en fejltekst."
+          },
+          "image": "/images/publiceringsmodulet/om_lejemaal_cut.png"
         },
         {
           "id": "om-sagen",
@@ -184,21 +210,55 @@
             "en": "Create a new publication: about the case",
             "da": "Opret ny publicering: Om sagen"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Trinnet \"Om sagen\" indeholder sagens øvrige oplysninger. Ingen felter her er obligatoriske, men dine svar har betydning for, hvordan og hvor publiceringen offentliggøres."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Trinnet \"Om sagen\" indeholder sagens øvrige oplysninger. Ingen felter her er obligatoriske, men dine svar har betydning for, hvordan og hvor publiceringen offentliggøres.\n\nSpørgsmålet \"Skal sagen være offentlig tilgængelig?\" afgør, om publiceringen vises i Afgørelses- og/eller Huslejeregistret. For at blive vist i Afgørelsesregistret skal sagsstatus være \"Afsluttet\", og begrundelsen skal være \"Afsluttet uden afgørelse\" eller \"Afsluttet med afgørelse om ...\". For også at blive vist i Huslejeregistret skal begrundelsen være \"Afsluttet med afgørelse om medhold\", og et lovgrundlag om husleje skal være valgt.\n\nHusk at anonymisere eventuel afgørelsestekst, før publiceringen gøres offentligt tilgængelig — systemet anonymiserer ikke selv teksten.\n\nAndre felter på dette trin: \"Hvem er indbringer?\" (hvem der har indbragt sagen), \"Sagen er behandlet i flg. nævn?\" og \"Sagens status?\". Svaret på \"Begrundelse for afslutning af sag?\" udløser desuden yderligere trin:\n\n• \"Afsluttet uden afgørelse\" åbner trinnet \"Om henlæggelse\"\n\n• \"Afsluttet med afgørelse om medhold\" åbner trinene \"Om afgørelse\" og \"Om husleje\"\n\n• \"Afsluttet med afgørelse om afvisning\" åbner trinnet \"Om afgørelse\"\n\nDu kan også angive et eget \"Eventuelt kommunalt nummer for sag\" og \"for offentliggørelse\" efter eget system, hvis I ønsker det."
-          }
+            "da": "Spørgsmålet \"Skal sagen være offentlig tilgængelig?\" afgør, om publiceringen vises i Afgørelses- og/eller Huslejeregistret. For at blive vist i Afgørelsesregistret skal sagsstatus være \"Afsluttet\", og begrundelsen skal være \"Afsluttet uden afgørelse\" eller \"Afsluttet med afgørelse om ...\". For også at blive vist i Huslejeregistret skal begrundelsen være \"Afsluttet med afgørelse om medhold\", og et lovgrundlag om husleje skal være valgt.\n\nHusk at anonymisere eventuel afgørelsestekst, før publiceringen gøres offentligt tilgængelig — systemet anonymiserer ikke selv teksten.\n\nAndre felter på dette trin: \"Hvem er indbringer?\" (hvem der har indbragt sagen)."
+          },
+          "image": "/images/publiceringsmodulet/Om_sagen2_cut.png"
+        },
+        {
+          "id": "udloesning-yderligere-trin",
+          "title": {
+            "en": "Create a new publication: triggering additional steps",
+            "da": "Opret ny publicering: Udløsning af yderligere trin"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Svaret på \"Begrundelse for afslutning af sag?\" udløser desuden yderligere trin:\n\n• \"Afsluttet uden afgørelse\" åbner trinnet \"Om henlæggelse\"\n\n• \"Afsluttet med afgørelse om medhold\" åbner trinene \"Om afgørelse\" og \"Om husleje\"\n\n• \"Afsluttet med afgørelse om afvisning\" åbner trinnet \"Om afgørelse\""
+          },
+          "image": "/images/publiceringsmodulet/Yderligere_trin_cut.png"
+        },
+        {
+          "id": "om-sagen-fortsat",
+          "title": {
+            "en": "Create a new publication: about the case (continued)",
+            "da": "Opret ny publicering: Om sagen (fortsat)"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Andre felter på dette trin: \"Sagen er behandlet i flg. nævn?\" og \"Sagens status?\"."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Du kan også angive et eget \"Eventuelt kommunalt nummer for sag\" og \"for offentliggørelse\" efter eget system, hvis I ønsker det."
+          },
+          "image": "/images/publiceringsmodulet/om_sagen_3_cut.png"
         },
         {
           "id": "om-afgoerelse",
           "title": {
             "en": "About discontinuance and decisions",
-            "da": "Om henlæggelse og afgørelse"
+            "da": "Opret ny publicerings: Om henlæggelse og afgørelse"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Er sagen afsluttet med begrundelsen \"Afsluttet uden afgørelse\", bliver trinnet \"Om henlæggelse\" aktivt. Her sætter du dato for henlæggelsen og vælger den relevante begrundelse.\n\nEr sagen afsluttet med \"Afsluttet med afgørelse om medhold\" eller \"om afvisning\", bliver trinnet \"Om afgørelse\" aktivt i stedet. Her angiver du dato for afgørelsen, hvad sagen vedrører (der kan vælges flere emner), om der er foretaget besigtigelse, og om afgørelsen er principiel.\n\nDu kan desuden angive lovgrundlaget for afgørelsen — der kan afkrydses mere end én paragraf. Lovgrundlaget har betydning for, om publiceringen vises i Huslejeregistret: kun sager, der er offentlig tilgængelige og knyttet til et lovgrundlag om huslejeregulering (f.eks. bestemte paragraffer i Boligreguleringsloven eller Lejeloven), vises der.\n\nAfgørelsesteksten kan tilknyttes på tre måder: automatisk pseudonymisering via Cleardox.io (upload PDF'en, og den pseudonymiserede version skal godkendes), upload af et allerede pseudonymiseret dokument, eller manuel indtastning i et fritekstfelt uden tegnbegrænsning. Uanset metode er det jeres ansvar, at afgørelsesteksten ikke indeholder følsomme personoplysninger.\n\nAfhængigt af begrundelsen vises desuden enten \"Hvem har fået medhold i sagen?\" og \"Er udlejer pålagt gebyr?\" (ved medhold), eller \"Hvad er begrundelsen for afgørelse om afvisning?\" (ved afvisning)."
-          }
+          },
+          "image": "/images/publiceringsmodulet/om_afgoerelse_cut.png"
         },
         {
           "id": "om-husleje",

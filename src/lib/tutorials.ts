@@ -15,7 +15,7 @@ export type Step = {
   id: string;
   title: LocalizedText;
   caption?: LocalizedText;
-  content: LocalizedText;
+  content?: LocalizedText;
   image?: string;
   video?: StepVideo;
 };
@@ -56,7 +56,9 @@ function validateStep(raw: unknown, tutorialLabel: string, index: number): Step 
   if (step.caption !== undefined) {
     assertLocalizedText(step.caption, "caption", label);
   }
-  assertLocalizedText(step.content, "content", label);
+  if (step.content !== undefined) {
+    assertLocalizedText(step.content, "content", label);
+  }
 
   if (step.image !== undefined && typeof step.image !== "string") {
     throw new Error(`${label}: "image" must be a string path`);
