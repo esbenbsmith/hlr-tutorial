@@ -37,7 +37,7 @@
             "en": "This step shows the \"image\" field — see data/tutorials.json.",
             "da": "Det er lovpligtigt at indberette sagen senest 14 dage efter sagen er indbragt, og senest 14 dage efter afgørelsen er truffet. Indbringelsesmodulet og sagsbehandlingsmodulet er valgfrie."
           },
-          "image": "/images/hvad-er-hlr/system-oversigt.svg"
+          "image": "/images/hvad-er-hlr/system-oversigt-obligatorisk.svg"
         },
         {
           "id": "example-image",

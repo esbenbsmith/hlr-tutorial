@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 550" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2f5c16" />
+    </marker>
+  </defs>
+
+  <rect width="900" height="550" fill="#ffffff" />
+
+  <text x="450" y="30" text-anchor="middle" font-size="16" fill="#707070">HLR — fra indbringelse til offentliggørelse</text>
+
+  <!-- connectors (drawn first, so boxes sit on top of the line ends) -->
+  <line x1="200" y1="92" x2="200" y2="138" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow)" />
+
+  <!-- merge-in lines: Sagsbehandlingsmodul and Publiceringsmodul both feed the shared bus (no arrowhead — not a destination) -->
+  <line x1="200" y1="212" x2="200" y2="280" stroke="#2f5c16" stroke-width="2.5" />
+  <line x1="700" y1="152" x2="700" y2="280" stroke="#2f5c16" stroke-width="2.5" />
+
+  <!-- shared horizontal bus -->
+  <line x1="160" y1="280" x2="740" y2="280" stroke="#2f5c16" stroke-width="2.5" />
+
+  <!-- fan-out from the bus to the three registries -->
+  <line x1="160" y1="280" x2="160" y2="328" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="450" y1="280" x2="450" y2="328" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow)" />
+  <line x1="740" y1="280" x2="740" y2="328" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow)" />
+
+  <line x1="740" y1="402" x2="740" y2="448" stroke="#2f5c16" stroke-width="2.5" marker-end="url(#arrow)" />
+
+  <!-- Indbringelsesmodul -->
+  <rect x="50" y="52" width="300" height="70" rx="10" fill="#44831e" />
+  <text x="200" y="93" text-anchor="middle" font-size="20" fill="#ffffff">Indbringelsesmodul</text>
+
+  <!-- Sagsbehandlingsmodul -->
+  <rect x="50" y="172" width="300" height="70" rx="10" fill="#44831e" />
+  <text x="200" y="213" text-anchor="middle" font-size="20" fill="#ffffff">Sagsbehandlingsmodul</text>
+
+  <!-- Publiceringsmodul (alone, vertically centered against the left pair) -->
+  <rect x="550" y="112" width="300" height="70" rx="10" fill="#44831e" />
+  <text x="700" y="153" text-anchor="middle" font-size="20" fill="#ffffff">Publiceringsmodul</text>
+
+  <!-- highlight: this is the one module that is mandatory for municipalities to use -->
+  <ellipse cx="700" cy="147" rx="170" ry="50" fill="none" stroke="red" stroke-width="4" />
+
+  <!-- Afgørelsesregister -->
+  <rect x="30" y="330" width="260" height="70" rx="10" fill="#2f5c16" />
+  <text x="160" y="371" text-anchor="middle" font-size="18" fill="#ffffff">Afgørelsesregister</text>
+
+  <!-- Huslejeregister -->
+  <rect x="320" y="330" width="260" height="70" rx="10" fill="#2f5c16" />
+  <text x="450" y="371" text-anchor="middle" font-size="18" fill="#ffffff">Huslejeregister</text>
+
+  <!-- Statusregister -->
+  <rect x="610" y="330" width="260" height="70" rx="10" fill="#2f5c16" />
+  <text x="740" y="371" text-anchor="middle" font-size="18" fill="#ffffff">Statusregister</text>
+
+  <!-- Ejendomsdatarapporten (external destination — outline style, not a solid HLR-internal box) -->
+  <rect x="610" y="450" width="260" height="70" rx="10" fill="#ffffff" stroke="#44831e" stroke-width="2.5" stroke-dasharray="6 4" />
+  <text x="740" y="491" text-anchor="middle" font-size="17" fill="#2f5c16">Ejendomsdatarapporten</text>
+</svg>
