@@ -201,7 +201,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Det første trin, \"Om lejemål\", er hvor du tilføjer alle adresser, publiceringen vedrører — der er ingen begrænsning på antallet. Adresser kan tilføjes automatisk via opslag i Danmarks Adresseregister (DAR): begynd at skrive adressen i søgefeltet, og vælg blandt forslagene. Findes adressen ikke i DAR, kan den tilføjes manuelt via knappen \"Tilføj adresse manuelt\" — her skal alle felter, inklusive BFE-numre, udfyldes manuelt. Vi anbefaler at gøre brug af DAR opslaget, ellers vil afgørelsen ikke fremgå af huslejeregistret.\n\nDe obligatoriske adressefelter er vejnavn, husnummer, postnummer og postnummerdistrikt. Etage, dør, supplerende bynavn, kommunekode og BFE-numre er valgfrie. Mangler eller er et felt forkert udfyldt, markeres det med rødt og en fejltekst."
+            "da": "Det første trin, \"Om lejemål\", er hvor du tilføjer alle adresser, publiceringen vedrører — der er ingen begrænsning på antallet. Adresser kan tilføjes automatisk via opslag i Danmarks Adresseregister (DAR): begynd at skrive adressen i søgefeltet, og vælg blandt forslagene. Findes adressen ikke i DAR, kan den tilføjes manuelt via knappen \"Tilføj adresse manuelt\" — her skal alle felter, inklusive BFE-numre, udfyldes manuelt. Vi anbefaler at gøre brug af DAR opslaget, ellers vil afgørelsen ikke fremgå af ejendomsdatarapporten og huslejeregistret.\n\nDe obligatoriske adressefelter er vejnavn, husnummer, postnummer og postnummerdistrikt. Etage, dør, supplerende bynavn, kommunekode og BFE-numre er valgfrie. Mangler eller er et felt forkert udfyldt, markeres det med rødt og en fejltekst."
           },
           "image": "/images/publiceringsmodulet/om_lejemaal_cut.png"
         },
@@ -213,13 +213,13 @@
           },
           "caption": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Trinnet \"Om sagen\" indeholder sagens øvrige oplysninger. Ingen felter her er obligatoriske, men dine svar har betydning for, hvordan og hvor publiceringen offentliggøres."
+            "da": "Trinnet \"Om sagen\" indeholder sagens øvrige oplysninger. Du bliver bedt om at tage stilling til hvert spørgsmål, har du ikke en specifik oplynsing kan du markere \"Ikke oplyst\" som svar."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Spørgsmålet \"Skal sagen være offentlig tilgængelig?\" afgør, om publiceringen vises i Afgørelses- og/eller Huslejeregistret. For at blive vist i Afgørelsesregistret skal sagsstatus være \"Afsluttet\", og begrundelsen skal være \"Afsluttet uden afgørelse\" eller \"Afsluttet med afgørelse om ...\". For også at blive vist i Huslejeregistret skal begrundelsen være \"Afsluttet med afgørelse om medhold\", og et lovgrundlag om husleje skal være valgt.\n\nHusk at anonymisere eventuel afgørelsestekst, før publiceringen gøres offentligt tilgængelig — systemet anonymiserer ikke selv teksten.\n\nAndre felter på dette trin: \"Hvem er indbringer?\" (hvem der har indbragt sagen)."
+            "da": "Spørgsmålet \"Skal sagen være offentlig tilgængelig?\" skal markeres som \"Offentligt tilgængelig\" for at opfylde indberetningspligten, og  afgør, om publiceringen vises i Afgørelses- og/eller Huslejeregistret.\n\n For at blive vist i Ejendomsdatarapporten, skal sagens status, som minimum, markeres som \"Igangværende\". \n\n For at blive vist i Afgørelsesregistret skal sagsstatus være \"Afsluttet\", og begrundelsen skal være \"Afsluttet uden afgørelse\" eller \"Afsluttet med afgørelse om ...\". For også at blive vist i Huslejeregistret skal begrundelsen være \"Afsluttet med afgørelse om medhold\", og et lovgrundlag om husleje skal være valgt.\n\nHusk at anonymisere eventuel afgørelsestekst, før publiceringen gøres offentligt tilgængelig — systemet anonymiserer ikke selv teksten.\n\nAndre felter på dette trin: \"Hvem er indbringer?\" (hvem der har indbragt sagen)."
           },
-          "image": "/images/publiceringsmodulet/Om_sagen2_cut.png"
+          "image": "/images/publiceringsmodulet/om_sagen5_cut.png"
         },
         {
           "id": "udloesning-yderligere-trin",
@@ -231,7 +231,7 @@
             "en": "Content for this tutorial is coming soon.",
             "da": "Svaret på \"Begrundelse for afslutning af sag?\" udløser desuden yderligere trin:\n\n• \"Afsluttet uden afgørelse\" åbner trinnet \"Om henlæggelse\"\n\n• \"Afsluttet med afgørelse om medhold\" åbner trinene \"Om afgørelse\" og \"Om husleje\"\n\n• \"Afsluttet med afgørelse om afvisning\" åbner trinnet \"Om afgørelse\""
           },
-          "image": "/images/publiceringsmodulet/Yderligere_trin_cut.png"
+          "image": "/images/publiceringsmodulet/om_sagen_6_cut.png"
         },
         {
           "id": "om-sagen-fortsat",
@@ -241,7 +241,7 @@
           },
           "caption": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Andre felter på dette trin: \"Sagen er behandlet i flg. nævn?\" og \"Sagens status?\"."
+            "da": "Andre felter på dette trin: \"Sagen er behandlet i flg. nævn?\". Med undtagelse for Københavns Kommune, er det meget vigtigt at alle kommuner aldrig markerer Ankenævn."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
@@ -273,7 +273,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Trinnet \"Huslejeoplysninger\" bliver aktivt, hvis sagen er afsluttet med \"Afgørelse om medhold\". Her angiver du \"Dato for fastsættelse af husleje?\", \"Huslejen er fastsat efter reglerne om?\", \"Nævnet har angivet huslejen som?\" og om huslejen gælder ét specifikt eller flere lejemål.\n\nBåde huslejen og lejemålets areal indtastes med cifre, hvor komma kan bruges som decimalseparator."
+            "da": "Trinnet \"Huslejeoplysninger\" bliver aktivt, hvis sagen er afsluttet med \"Afgørelse om medhold\". Her angiver du \"Dato for fastsættelse af husleje?\", \"Huslejen er fastsat efter reglerne om?\", \"Nævnet har angivet huslejen som?\" og om huslejen gælder ét specifikt eller flere lejemål."
           },
           "image": "/images/publiceringsmodulet/om_husleje_cut.png"
         },
@@ -325,7 +325,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Når en publicering er gemt, kan den redigeres igen når som helst. Gå til Publiceringsmodulets forside, find publiceringen i listen, og tryk på \"Rediger\" i den sidste kolonne. Redigeringsvisningen er identisk med oprettelsesformularen."
+            "da": "Når en publicering er gemt, kan den redigeres igen når som helst. Gå til Publiceringsmodulets forside, find publiceringen i listen, og tryk på \"Rediger\" i den sidste kolonne. Redigeringsvisningen er identisk med oprettelsesformularen. \n\n Hvis du har indberettet en indbringelse, så finder du sagen, og starter med at ændre sagens status til \"Afsluttet\", og derefter kan du udfylde de resterende oplysninger."
           },
           "image": "/images/publiceringsmodulet/rediger_sag_cut.png"
         }
