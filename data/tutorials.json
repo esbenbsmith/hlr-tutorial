@@ -449,7 +449,7 @@
             "en": "The overview page",
             "da": "Oversigten"
           },
-          "content": {
+          "caption": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Når du logger på huslejenævnet, er det første billede du ser oversigtsbilledet. Som sagsbehandler har du alene adgang til denne sektion. Tryk på \"Indbragte sager\" for at tilgå sagsoversigten."
           },
