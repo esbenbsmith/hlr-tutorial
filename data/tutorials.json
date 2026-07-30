@@ -433,9 +433,13 @@
             "en": "The caseworker role and access",
             "da": "Sagsbehandlerrollen og adgang"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Der findes to roller i Huslejenaevn.dk, som kan bruge sagsbehandlingsmodulet: \"Sagsbehandler\" og \"Sekretariatsleder\".\n\nDenne vejledning er til \"Indbragte sager\" sektionen af Sagsbehandlingsmodulet som kan bruges både af \"Sekretariatsleder\" og \"Sagsbehandler\"-rollen. Sektionen vil se lidt anderledes ud, afhængigt af rollen, men kun i mindre grad."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Der findes to roller i Huslejenaevn.dk, som kan bruge sagsbehandlingsmodulet: \"Sagsbehandler\" og \"Sekretariatsleder\".\n\nRollen som sagsbehandler gives til de medarbejdere i nævnet, som skal sagsbehandle sagerne. Rollen som sekretariatsleder gives til medarbejdere, som også har flere administrative opgaver i nævnet, eksempelvis fordeling af sager til medarbejdere og administration af nævnsmedlemmerne. Det er samme link, der bruges til at logge på systemet, uanset hvilken af de to roller man har — det er rollen, der afgør, hvilken funktionalitet man har adgang til. MitID Erhverv skal bruges, hver gang man logger på.\n\nDenne vejledning er til \"Sagsbehandler\"-rollen.\n\nDu får adgang ved at bede din MitID-administrator (som oftest arbejder i din organisation) om at oprette dig med \"Sagsbehandler\"-rollen via MitID Erhverv. Skal der ske ændringer i dine roller, skal du også kontakte MitID-administratoren i din organisation."
+            "da": "Rollen som sagsbehandler gives til de medarbejdere i nævnet, som skal sagsbehandle sagerne. Rollen som sekretariatsleder gives til medarbejdere, som også har flere administrative opgaver i nævnet, eksempelvis fordeling af sager til medarbejdere og administration af nævnsmedlemmerne. Det er samme link, der bruges til at logge på systemet, uanset hvilken af de to roller man har — det er rollen, der afgør, hvilken funktionalitet man har adgang til. MitID Erhverv skal bruges, hver gang man logger på.\n\nFor at få adgang bedes du læse \"Hvordan kommer jeg ind på HLR?\" vejledningen."
           },
           "image": "/images/sagsbehandler/Landing_sagsbehandler_cut.png"
         },
@@ -457,11 +461,11 @@
             "en": "Choosing a board",
             "da": "Valg af nævn"
           },
-          "content": {
+          "caption": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Hvis du sagsbehandler for flere nævn, kan du øverst på oversigtssiden skifte nævn. Klik på de tre små prikker, så fremkommer listen med de nævn, du er sagsbehandler på. Tryk f.eks. på \"Københavns Kommune Huslejenævn\" for at vælge, hvilket nævn du vil sagsbehandle for."
           },
-          "image": "/images/sagsbehandler/Skift_naevn_cut.png"
+          "image": "/images/sagsbehandler/Skift_kommune_cut.png"
         },
         {
           "id": "sagsoversigten",
