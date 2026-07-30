@@ -252,7 +252,7 @@
           "id": "om-afgoerelse",
           "title": {
             "en": "About discontinuance and decisions",
-            "da": "Opret ny publicerings: Om henlæggelse og afgørelse"
+            "da": "Opret ny publicering: Om henlæggelse og afgørelse"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
@@ -264,12 +264,57 @@
           "id": "om-husleje",
           "title": {
             "en": "About rent",
-            "da": "Om husleje"
+            "da": "Opret ny publicering:Om husleje"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "**Hvis din sag ikke vedrører lejens størrelse, kan du trykke på \"Gem\", derved får du lov til at indsætte en afgørelsestekst under \"Dokumentation\".**"
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Trinnet \"Huslejeoplysninger\" bliver aktivt, hvis sagen er afsluttet med \"Afgørelse om medhold\". Her angiver du \"Dato for fastsættelse af husleje?\", \"Huslejen er fastsat efter reglerne om?\", \"Nævnet har angivet huslejen som?\" og om huslejen gælder ét specifikt eller flere lejemål.\n\nBåde huslejen og lejemålets areal indtastes med cifre, hvor komma kan bruges som decimalseparator."
-          }
+          },
+          "image": "/images/publiceringsmodulet/om_husleje_cut.png"
+        },
+        {
+          "id": "om-dokumentation",
+          "title": {
+            "en": "Create a new publication: about documentation",
+            "da": "Opret ny publicering: Om dokumentation"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "I denne fane kan du indsætte en afgørelse. Du kan også få pseudonymiseret din afgørelse automatisk."
+          },
+          "image": "/images/publiceringsmodulet/om_dokumentation_cut.png"
+        },
+        {
+          "id": "pseudonymisering",
+          "title": {
+            "en": "Create a new publication: pseudonymization",
+            "da": "Opret ny publicering: Pseudonymisering"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når du trykker på \"Pseudonymisér afgørelse med Cleardox.io\" kan du vedhæfte en afgørelse som vil blive pseudonymiseret automatisk. Du har dog mulighed for at redigere i pseudonymiseringen."
+          },
+          "image": "/images/publiceringsmodulet/pseudonymiser_cut.png"
+        },
+        {
+          "id": "rediger-pseudonymisering",
+          "title": {
+            "en": "Create a new publication: editing the pseudonymization",
+            "da": "Opret ny publicering: Redigér pseudonymisering"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når du trykker på \"Rediger i Cleardox.io\" vil du blive sendt over til Cleardox's side, hvor du har mulighed for at ændre hvilke ord der bliver pseudonymiseret. De ord som er udvalgt til pseudonymisering er i grå, og du kan ændre deres status ved at trykke på dem. Du kan fjerne pseudonymiseringen ved at trykke på skraldespandsikonet."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når du er færdig med at redigere i pseudonymiseringen, kan du trykke på cirklen med fluebenet som er udpeget med den røde pil, så vil du blive sendt tilbage til Huslejenaevn.dk. Nogle oplysninger er streget ud manuelt fordi dette er et rigtigt dokument."
+          },
+          "image": "/images/publiceringsmodulet/rediger_cut.png"
         },
         {
           "id": "redigering",
@@ -280,7 +325,8 @@
           "content": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Når en publicering er gemt, kan den redigeres igen når som helst. Gå til Publiceringsmodulets forside, find publiceringen i listen, og tryk på \"Rediger\" i den sidste kolonne. Redigeringsvisningen er identisk med oprettelsesformularen."
-          }
+          },
+          "image": "/images/publiceringsmodulet/rediger_sag_cut.png"
         }
       ]
     },
