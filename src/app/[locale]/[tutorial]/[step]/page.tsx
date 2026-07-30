@@ -24,7 +24,8 @@ function renderWithBold(text: string) {
 
 function renderParagraphs(text: string) {
   const blocks: React.ReactNode[] = [];
-  let currentList: string[] = [];
+  let currentList: { text: string; subItems: string[] }[] = [];
+  let lastItemAcceptsSubItems = false;
   let key = 0;
 
   const flushList = () => {
@@ -32,17 +33,34 @@ function renderParagraphs(text: string) {
     blocks.push(
       <ul key={key++} className="list-disc space-y-1 pl-5">
         {currentList.map((item, i) => (
-          <li key={i}>{renderWithBold(item)}</li>
+          <li key={i}>
+            {renderWithBold(item.text)}
+            {item.subItems.length > 0 && (
+              <ul className="mt-1 list-[circle] space-y-1 pl-5 text-[var(--text-muted)]">
+                {item.subItems.map((sub, j) => (
+                  <li key={j}>{renderWithBold(sub)}</li>
+                ))}
+              </ul>
+            )}
+          </li>
         ))}
       </ul>
     );
     currentList = [];
+    lastItemAcceptsSubItems = false;
   };
 
   for (const paragraph of text.split(/\n\s*\n/)) {
-    const bulletMatch = paragraph.match(/^[•-]\s+([\s\S]*)$/);
-    if (bulletMatch) {
-      currentList.push(bulletMatch[1]);
+    const mainMatch = paragraph.match(/^•\s+([\s\S]*)$/);
+    const subMatch = paragraph.match(/^-\s+([\s\S]*)$/);
+    if (mainMatch) {
+      currentList.push({ text: mainMatch[1], subItems: [] });
+      lastItemAcceptsSubItems = true;
+    } else if (subMatch && lastItemAcceptsSubItems) {
+      currentList[currentList.length - 1].subItems.push(subMatch[1]);
+    } else if (subMatch) {
+      currentList.push({ text: subMatch[1], subItems: [] });
+      lastItemAcceptsSubItems = false;
     } else {
       flushList();
       blocks.push(<p key={key++}>{renderWithBold(paragraph)}</p>);

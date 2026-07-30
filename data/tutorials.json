@@ -88,7 +88,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Der findes tre roller, som kan tildeles i Huslejenaevn.dk. Nedenfor kan du se, hvad hver rolle kan.\n\n• Sekretariatsleder: Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet. Behandler sager, fordeler indkomne sager til sagsbehandlere, definerer sagstrin, inviterer nævnsmedlemmer til systemet, og opretter nævnsmøder. Publicerer afgørelser i både sagsbehandlingsmodulet og publiceringsmodulet. \n\n• Sagsbehandler: Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet. Behandler sager. Publicerer afgørelser i både sagsbehandlingsmodulet og publiceringsmodulet.\n\n• Administrativ medarbejder: Har kun adgang til publiceringsmodulet. Publicerer afgørelser i publiceringsmodulet."
+            "da": "Der findes tre roller, som kan tildeles i Huslejenaevn.dk. Nedenfor kan du se, hvad hver rolle kan.\n\n• Sekretariatsleder:\n\n- Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet.\n\n- Behandler sager, fordeler indkomne sager til sagsbehandlere, definerer sagstrin, inviterer nævnsmedlemmer til systemet, og opretter nævnsmøder.\n\n- Publicerer afgørelser i både sagsbehandlingsmodulet og publiceringsmodulet.\n\n• Sagsbehandler:\n\n- Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet.\n\n- Behandler sager.\n\n- Publicerer afgørelser i både sagsbehandlingsmodulet og publiceringsmodulet.\n\n• Administrativ medarbejder:\n\n- Har kun adgang til publiceringsmodulet.\n\n- Publicerer afgørelser i publiceringsmodulet."
           },
           "image": "/images/hvordan-kommer-jeg-ind/tre-roller.svg"
         },
@@ -153,7 +153,7 @@
           },
           "caption": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Publiceringsmodulet bruges af kommuner og nævn til at indberette sager og afgørelser fra landets husleje- og beboerklagenævn. Det er obligatorisk for kommuner og nævn at indberette, blandt andet for at sikre en øget gennemsigtighed i lejeniveauer og afgørelser på tværs af kommuner i Danmark."
+            "da": "Det er obligatorisk for kommuner og nævn at indberette, blandt andet for at sikre en øget gennemsigtighed i lejeniveauer og afgørelser på tværs af kommuner i Danmark. Publiceringsmodulet bruges af kommuner og nævn til at indberette sager og afgørelser fra landets husleje- og beboerklagenævn."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
@@ -173,7 +173,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "I søgefeltet kan du finde en publicering på:\n\n• Løbenummer (alle cifre er nødvendige, fx 101-13365)\n\n• Adresse (komplet eller delvis, fx \"Holmens Kanal\")\n\n• Publiceringsnummer (alle cifre er nødvendige)\n\n• Sagsnummer (alle cifre er nødvendige)\n\n• Afgørelsesnummer (alle cifre er nødvendige)\n\nListen sorteres som standard efter løbenummer, med de nyeste publiceringer øverst. Hver række viser adresse(r), offentliggørelsesdato, tilgængelighed og sagsstatus, samt et link til at redigere publiceringen. Er der mere end 15 publiceringer, vises paginering nederst på siden."
+            "da": "I søgefeltet kan du finde en publicering på:\n\n• Løbenummer (alle cifre er nødvendige, fx 101-13365)\n\n• Adresse (komplet eller delvis, fx \"Holmens Kanal\")\n\n• Publiceringsnummer (alle cifre er nødvendige)\n\n• Sagsnummer (alle cifre er nødvendige)\n\n• Afgørelsesnummer (alle cifre er nødvendige)\n\nListen sorteres som standard efter løbenummer, med de nyeste publiceringer øverst. Status, afgjort, indbragt, indbringer, afsluttet, medhold, kommune, nævn, og lovhjemmel. Hver række viser adresse(r), offentliggørelsesdato, tilgængelighed og sagsstatus, samt et link til at redigere publiceringen. Er der mere end 15 publiceringer, vises paginering nederst på siden."
           },
           "image": "/images/publiceringsmodulet/Publicer_cut.png"
         },
@@ -197,11 +197,11 @@
           },
           "caption": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Oprettelsen består af op til fire trin, som du kan se og navigere mellem i trinviseren i venstre side. Du kan også bruge \"Næste trin\"-knappen nederst på hvert trin (findes ikke på det sidste trin).\n\nEn publicering er først gemt, når du trykker \"Gem\" i øverste højre hjørne — bevæger du dig væk uden at gemme, går ændringerne siden sidste gem tabt. Pilen ved \"Gem\"-knappen giver også mulighed for \"Gem og afslut\", som gemmer og sender dig tilbage til forsiden. Når en publicering gemmes for første gang, får den automatisk tildelt et løbenummer."
+            "da": "Oprettelsen består af op til fire trin, som du kan se og navigere mellem i trinviseren i venstre side. Du kan også bruge \"Næste trin\"-knappen nederst på hvert trin (findes ikke på det sidste trin).\n\nEn publicering er først gemt, når du trykker \"Gem\" i øverste højre hjørne. Lukker du siden uden at gemme, går ændringerne siden sidste gem tabt. Pilen ved \"Gem\"-knappen giver også mulighed for \"Gem og afslut\", som gemmer og sender dig tilbage til forsiden. Når en publicering gemmes for første gang, får den automatisk tildelt et løbenummer."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Det første trin, \"Om lejemål\", er hvor du tilføjer alle adresser, publiceringen vedrører — der er ingen begrænsning på antallet. Adresser kan tilføjes automatisk via opslag i Danmarks Adresseregister (DAR): begynd at skrive adressen i søgefeltet, og vælg blandt forslagene. Findes adressen ikke i DAR, kan den tilføjes manuelt via knappen \"Tilføj adresse manuelt\" — her skal alle felter, inklusive BFE-numre, udfyldes manuelt.\n\nDe obligatoriske adressefelter er vejnavn, husnummer, postnummer og postnummerdistrikt. Etage, dør, supplerende bynavn, kommunekode og BFE-numre er valgfrie. Mangler eller er et felt forkert udfyldt, markeres det med rødt og en fejltekst."
+            "da": "Det første trin, \"Om lejemål\", er hvor du tilføjer alle adresser, publiceringen vedrører — der er ingen begrænsning på antallet. Adresser kan tilføjes automatisk via opslag i Danmarks Adresseregister (DAR): begynd at skrive adressen i søgefeltet, og vælg blandt forslagene. Findes adressen ikke i DAR, kan den tilføjes manuelt via knappen \"Tilføj adresse manuelt\" — her skal alle felter, inklusive BFE-numre, udfyldes manuelt. Vi anbefaler at gøre brug af DAR opslaget, ellers vil afgørelsen ikke fremgå af huslejeregistret.\n\nDe obligatoriske adressefelter er vejnavn, husnummer, postnummer og postnummerdistrikt. Etage, dør, supplerende bynavn, kommunekode og BFE-numre er valgfrie. Mangler eller er et felt forkert udfyldt, markeres det med rødt og en fejltekst."
           },
           "image": "/images/publiceringsmodulet/om_lejemaal_cut.png"
         },
