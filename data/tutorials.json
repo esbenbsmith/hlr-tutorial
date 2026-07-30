@@ -151,10 +151,15 @@
             "en": "Introduction to the Publishing Module",
             "da": "Introduktion til Publiceringsmodulet"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Publiceringsmodulet bruges af kommuner og nævn til at indberette sager og afgørelser fra landets husleje- og beboerklagenævn. Det er obligatorisk for kommuner og nævn at indberette, blandt andet for at sikre en øget gennemsigtighed i lejeniveauer og afgørelser på tværs af kommuner i Danmark."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Publiceringsmodulet bruges af kommuner og nævn til at indberette sager og afgørelser fra landets husleje- og beboerklagenævn. Det er obligatorisk for kommuner og nævn at indberette, blandt andet for at sikre en øget gennemsigtighed i lejeniveauer og afgørelser på tværs af kommuner i Danmark.\n\nNavnet \"Publiceringsmodulet\" understreger, at alle sager, som er indbragt for husleje- og beboerklagenævnene, skal offentliggøres (publiceres). Kommuner og nævn er forpligtet til at oprette en publicering senest 14 dage efter sagen er indbragt af lejer, udlejer eller deres repræsentant.\n\nNår sagen er behandlet og afsluttet, opdateres publiceringen med relevante oplysninger, såsom pseudonymiseret afgørelsestekst.\n\nDe offentliggjorte sager udstilles i tre registre: Afgørelsesregistret, Huslejeregistret og Statusregistret. De to første indeholder kun oplysninger om afsluttede sager (henlagte eller afgjorte), mens Statusregistret også indeholder oplysninger om verserende sager.\n\nDet er muligt at oprette og redigere sager og afgørelser løbende — også i historiske sager, f.eks. for at tilføje afgørelsestekst, huslejeniveauer eller et mere præcist lovgrundlag.\n\nFor at kunne bruge Publiceringsmodulet skal du være logget ind med MitID Erhverv og have fået tildelt de korrekte rettigheder. Se vejledningen \"Vejledning NemLog-in roller og rettigheder SBST\" for hjælp til login."
-          }
+            "da": "Navnet \"Publiceringsmodulet\" understreger, at alle sager, som er indbragt for husleje- og beboerklagenævnene, skal offentliggøres (publiceres). Kommuner og nævn er forpligtet til at oprette en publicering senest 14 dage efter sagen er indbragt af lejer, udlejer eller deres repræsentant.\n\nNår sagen er behandlet og afsluttet, opdateres publiceringen med relevante oplysninger, såsom pseudonymiseret afgørelsestekst.\n\nDe offentliggjorte sager udstilles i tre registre: Afgørelsesregistret, Huslejeregistret og Statusregistret. De to første indeholder kun oplysninger om afsluttede sager (henlagte eller afgjorte), mens Statusregistret også indeholder oplysninger om verserende sager.\n\nDet er muligt at oprette og redigere sager og afgørelser løbende — også i historiske sager, f.eks. for at tilføje afgørelsestekst, huslejeniveauer eller et mere præcist lovgrundlag.\n\nFor at kunne bruge Publiceringsmodulet skal du være logget ind med MitID Erhverv og have fået tildelt de korrekte rettigheder. Se vejledningen \"Vejledning NemLog-in roller og rettigheder SBST\" for hjælp til login."
+          },
+          "image": "/images/publiceringsmodulet/publicering-livscyklus.svg"
         },
         {
           "id": "forside-navigation",
