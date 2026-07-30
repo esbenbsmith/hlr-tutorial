@@ -19,7 +19,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Løsningen består af tre moduler: Indbringelsesmodulet, Sagsbehandlingsmodulet og Publiceringsmodulet. Publiceringsmodulet bruges til indberetning af afgørelser."
+            "da": "Løsningen består af tre moduler: Indbringelsesmodulet, Sagsbehandlingsmodulet og Publiceringsmodulet. Publiceringsmodulet bruges til indberetning af afgørelser.\n\n Publiceringsmodulet bruges til indberetninger af afgørelser, som ikke er sagsbehandlet i sagsbehandlingsmodulet."
           },
           "image": "/images/hvad-er-hlr/system-oversigt.svg"
         },
