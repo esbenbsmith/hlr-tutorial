@@ -120,7 +120,7 @@ export default async function StepPage({
   const nextHref = current < total ? `/${locale}/${tutorial.id}/${current + 1}` : null;
 
   return (
-    <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col px-6 py-12">
+    <main className="mx-auto flex w-full max-w-2xl flex-col px-6 py-12">
       <div className="mb-4">
         <Link
           href={`/${locale}`}
@@ -183,7 +183,7 @@ export default async function StepPage({
         </div>
       )}
 
-      <div className="mt-auto flex items-center justify-between border-t border-[var(--border)] pt-4">
+      <div className="mt-8 flex items-center justify-between border-t border-[var(--border)] pt-4">
         {prevHref ? (
           <Link
             href={prevHref}
