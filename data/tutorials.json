@@ -76,7 +76,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Før en bruger i din organisation kan tilgå sagsbehandlingsmodulet eller publiceringsmodulet, skal brugerne have tildelt roller, der giver adgang til f.eks. at redigere i de forskellige dele af løsningen. En MitID administrator i din organisation kan tildele roller med de relevante rettigheder til brugere i din organisation på MitID Erhverv. I næste slide gennemgår vi hvad hver rolle kan."
+            "da": "En MitID administrator i din organisation kan tildele roller med de relevante rettigheder til brugere i din organisation på MitID Erhverv. I næste slide gennemgår vi hvad hver rolle kan."
           },
           "image": "/images/hvordan-kommer-jeg-ind/rolle-adgang.svg"
         },
@@ -88,7 +88,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Der findes tre roller, som kan tildeles i Huslejenaevn.dk. Nedenfor kan du se, hvad hver rolle kan.\n\n• Sekretariatsleder: Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet. Behandler sager, fordeler indkomne sager til sagsbehandlere, definerer sagstrin, inviterer nævnsmedlemmer til systemet, og opretter nævnsmøder.\n\n• Sagsbehandler: Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet. Behandler sager.\n\n• Administrativ medarbejder: Har kun adgang til publiceringsmodulet. Publicerer afgørelser."
+            "da": "Der findes tre roller, som kan tildeles i Huslejenaevn.dk. Nedenfor kan du se, hvad hver rolle kan.\n\n• Sekretariatsleder: Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet. Behandler sager, fordeler indkomne sager til sagsbehandlere, definerer sagstrin, inviterer nævnsmedlemmer til systemet, og opretter nævnsmøder. Publicerer afgørelser i både sagsbehandlingsmodulet og publiceringsmodulet. \n\n• Sagsbehandler: Har adgang til både sagsbehandlingsmodulet og publiceringsmodulet. Behandler sager. Publicerer afgørelser i både sagsbehandlingsmodulet og publiceringsmodulet.\n\n• Administrativ medarbejder: Har kun adgang til publiceringsmodulet. Publicerer afgørelser i publiceringsmodulet."
           },
           "image": "/images/hvordan-kommer-jeg-ind/tre-roller.svg"
         },
