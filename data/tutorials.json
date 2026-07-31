@@ -697,7 +697,7 @@
             "en": "The case: History",
             "da": "Sagen: Historik"
           },
-          "content": {
+          "caption": {
             "en": "Content for this tutorial is coming soon.",
             "da": "På fanen \"Historik\" kan du se alle sagsbehandlere, der har tilgået sagen, og hvilke handlinger de har udført på den — med dato, bruger og handlingstype for hver linje."
           },
