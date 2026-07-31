@@ -179,3 +179,33 @@ export function getTopLevelTutorials(): Tutorial[] {
 export function getChooserFor(tutorialId: string): ChoicesTutorial | undefined {
   return tutorials.find((t): t is ChoicesTutorial => "choices" in t && t.choices.includes(tutorialId));
 }
+
+export type SearchEntry = {
+  tutorialId: string;
+  tutorialTitle: string;
+  stepNumber: number;
+  stepTitle: string;
+  searchText: string;
+};
+
+// Flattens every step across every tutorial (including ones only reachable
+// via a chooser) into a searchable list, scoped to one locale at a time.
+export function getSearchIndex(locale: Locale): SearchEntry[] {
+  const entries: SearchEntry[] = [];
+  for (const tutorial of tutorials) {
+    if (!("steps" in tutorial)) continue;
+    tutorial.steps.forEach((step, i) => {
+      const parts = [step.title[locale], step.caption?.[locale], step.content?.[locale]].filter(
+        (part): part is string => Boolean(part)
+      );
+      entries.push({
+        tutorialId: tutorial.id,
+        tutorialTitle: tutorial.title[locale],
+        stepNumber: i + 1,
+        stepTitle: step.title[locale],
+        searchText: parts.join(" ").toLowerCase(),
+      });
+    });
+  }
+  return entries;
+}
