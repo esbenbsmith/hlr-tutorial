@@ -146,7 +146,7 @@ export default async function StepPage({
       <h1 className="mb-4 text-2xl font-bold text-[var(--text-primary)]">{step.title[locale]}</h1>
 
       {step.caption && (
-        <div className="mb-4 space-y-3 text-sm leading-relaxed text-[var(--text-primary)]">
+        <div className="mb-4 space-y-3 text-base leading-relaxed text-[var(--text-primary)]">
           {renderParagraphs(step.caption[locale])}
         </div>
       )}
@@ -178,7 +178,7 @@ export default async function StepPage({
         ))}
 
       {step.content && (
-        <div className="mb-8 space-y-3 text-sm leading-relaxed text-[var(--text-secondary)]">
+        <div className="mb-8 space-y-3 text-base leading-relaxed text-[var(--text-secondary)]">
           {renderParagraphs(step.content[locale])}
         </div>
       )}
