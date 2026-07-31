@@ -332,6 +332,95 @@
       ]
     },
     {
+      "id": "naevnsmodulet",
+      "title": {
+        "en": "Board module",
+        "da": "Nævnsmodulet"
+      },
+      "steps": [
+        {
+          "id": "oversigt",
+          "title": {
+            "en": "Overview",
+            "da": "Oversigt"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Nævnsmodulet er en portal for nævnsmedlemmer, hvor du kan se dokumenter og notater for dine planlagte nævnsmøder. Denne vejledning er til nævnsmedlemmer."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når du logger ind, lander du på oversigten. Under \"Næste møde\" kan du se detaljer om det næste planlagte møde: tidspunkt, antal mødepunkter, og antal besigtigelser. Besigtigelse er en inspektion, der gennemføres før mødet — oplysningerne er til orientering, og administreres ikke af dig som nævnsmedlem."
+          },
+          "image": "/images/naevnsmodulet/naevnsmodul1_cut.png"
+        },
+        {
+          "id": "naevnsmoede",
+          "title": {
+            "en": "Board meeting",
+            "da": "Nævnsmøde"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Tryk \"Gå til møde\" for at åbne et specifikt nævnsmøde."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Her kan du se tidspunkt, deltagere, og en liste over mødets punkter (sager) med løbenummer, adresse og tidspunkt for besigtigelse. Tryk \"Vis detaljer\" for at åbne et specifikt punkt.\n\nUnder \"Alle møder\" kan du se en oversigt over alle dine møder — skift mellem \"Kommende\" og \"Tidligere\" for at se møder i den ene eller anden kategori."
+          },
+          "image": "/images/naevnsmodulet/naevnsmodul2_cut.png"
+        },
+        {
+          "id": "dokumenter",
+          "title": {
+            "en": "Documents",
+            "da": "Dokumenter"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På et mødepunkt kan du under fanen \"Dokumenter\" se de dokumenter, der er tilknyttet sagen."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Her finder du f.eks. mails fra parterne, betalingsinformation og selve indbringelsen. Tryk \"Hent\" for at downloade et dokument, eller \"Vedhæft\" for at tilføje dit eget dokument."
+          },
+          "image": "/images/naevnsmodulet/dokumenter_naevnsmodul_cut.png"
+        },
+        {
+          "id": "notater",
+          "title": {
+            "en": "Notes",
+            "da": "Notater"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Under fanen \"Notater\" kan du se notater tilknyttet mødepunktet."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Hvert notat viser dato, hvem der har oprettet det, og hvem det er delt med. Notater bruges til at kommunikere med sagsbehandleren i den anden ende."
+          },
+          "image": "/images/naevnsmodulet/notater_naevnsmodul_cut.png"
+        },
+        {
+          "id": "opret-notat",
+          "title": {
+            "en": "Create a note",
+            "da": "Opret notat"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Tryk \"Opret notat\" for at oprette et nyt notat."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Angiv en titel og en tekst. Brug knappen \"Del med sagsbehandlere?\" til at vælge, om notatet skal deles med sagsbehandlere. Tryk \"Gem\" for at oprette notatet, eller \"Annuller\" for at fortryde."
+          },
+          "image": "/images/naevnsmodulet/opret_notat_cut.png"
+        }
+      ]
+    },
+    {
       "id": "sagsbehandlingsmodulet",
       "title": {
         "en": "Case processing module",
