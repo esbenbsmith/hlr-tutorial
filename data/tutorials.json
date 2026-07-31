@@ -473,9 +473,13 @@
             "en": "The case list",
             "da": "Sagsoversigten"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På sagsoversigten kan du tilgå alle sager, som er relevante for det pågældende nævn, og oprette nye sager, hvis der er behov for det."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "På sagsoversigten kan du tilgå alle sager, som er relevante for det pågældende nævn, og oprette nye sager, hvis der er behov for det. Sager, som udlejer eller lejer har indbragt via huslejenaevn.dk (indbringelsesmodulet), oprettes automatisk. \"Opret sag\" bruges til sager, som ikke er modtaget via huslejenaevn.dk.\n\nI sagsoverblikket kan du se:\n\n• Løbenr.: Sagsnummeret i huslejenaevn.dk\n\n• Adresse: Adressen knyttet til sagen\n\n• Sagsbehandler: Den sagsbehandler, der er koblet til sagen (medarbejderen med sekretariatsleder-rollen tildeler sagsbehandlere til sagerne)\n\n• Sagstrin: Hvor i sagsforløbet sagen befinder sig (kun sekretariatslederen kan oprette og redigere sagstrin)\n\nDen sidste kolonne viser, om gebyret er betalt: enten \"Betalt\" eller \"Manglende betaling\".\n\nDu kan sætte filter, så du ikke ser alle sagerne — tryk på \"Vis filtre\". Du kan filtrere på bl.a. sagsbehandler, status, sagstrin, indbragt/afgjort i perioden, indbringer, afslutningsårsag, medhold og lovhjemmel. Der er desuden tre hurtige til/fra-filtre: \"Vis kun mine sager\", \"Vis kun sager med nye beskeder\" og \"Vis kun sager med varsel eller alarm\"."
+            "da": "Sager, som udlejer eller lejer har indbragt via huslejenaevn.dk (indbringelsesmodulet), oprettes automatisk. \"Opret sag\" bruges til sager, som ikke er modtaget via huslejenaevn.dk.\n\nI sagsoverblikket kan du se:\n\n• Løbenr.: Sagsnummeret i huslejenaevn.dk\n\n• Adresse: Adressen knyttet til sagen\n\n• Sagsbehandler: Den sagsbehandler, der er koblet til sagen (medarbejderen med sekretariatsleder-rollen tildeler sagsbehandlere til sagerne)\n\n• Sagstrin: Hvor i sagsforløbet sagen befinder sig (kun sekretariatslederen kan oprette og redigere sagstrin)\n\nDen sidste kolonne viser, om gebyret er betalt: enten \"Betalt\" eller \"Manglende betaling\".\n\nDu kan sætte filter, så du ikke ser alle sagerne — tryk på \"Vis filtre\". Du kan filtrere på bl.a. sagsbehandler, status, sagstrin, indbragt/afgjort i perioden, indbringer, afslutningsårsag, medhold og lovhjemmel. Der er desuden tre hurtige til/fra-filtre: \"Vis kun mine sager\", \"Vis kun sager med nye beskeder\" og \"Vis kun sager med varsel eller alarm\"."
           },
           "image": "/images/sagsbehandler/Indbragte_sager_cut.png"
         },
@@ -485,9 +489,13 @@
             "en": "The case: Overview",
             "da": "Sagen: Overblik"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når du åbner en specifik sag, lander du på \"Overblik\". Her ser du sagsbehandlingsmodulets sagsnummer og hvilket trin i sagsbehandlingen sagen befinder sig i. Mærkatet \"Manglende offentliggørelse\" betyder, at sagen ikke er offentliggjort endnu; \"Manglende betaling\" fortæller, om gebyret er betalt. Vi fortæller mere om disse to statuser i næste slide."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Når du åbner en specifik sag, lander du på \"Overblik\". Her ser du sagsbehandlingsmodulets sagsnummer og hvilket trin i sagsbehandlingen sagen befinder sig i. Mærkatet \"Manglende offentliggørelse\" betyder, at sagen ikke er offentliggjort endnu; \"Manglende betaling\" fortæller, om gebyret er betalt.\n\nUnder løbenummeret findes en række faner (Overblik, Lejemål, Parter m.fl.), som du bruger til at skifte mellem sagens forskellige dele."
+            "da": "Under løbenummeret findes en række faner (Overblik, Lejemål, Parter m.fl.), som du bruger til at skifte mellem sagens forskellige dele."
           },
           "image": "/images/sagsbehandler/Overblik2_cut.png"
         },
@@ -497,9 +505,13 @@
             "en": "The green button",
             "da": "Den grønne knap"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Den grønne knap har to funktioner: klikker du på selve teksten \"Skift sagstrin\", kan du skifte sagstrin. Klikker du på pilen til højre, finder du i stedet funktionerne \"Registrer betaling\", \"Offentliggør sag\" og \"Opret aktindsigtsdokument\"."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Den grønne knap har to funktioner: klikker du på selve teksten \"Skift sagstrin\", kan du skifte sagstrin. Klikker du på pilen til højre, finder du i stedet funktionerne \"Registrer betaling\", \"Offentliggør sag\" og \"Opret aktindsigtsdokument\".\n\n\"Registrer betaling\" lader dig gemme, hvornår et sagsgebyr anses for betalt. \"Offentliggør sag\" bruges til at indberette, at en sag er blevet indbragt, og derved opfylde indberetningspligten — vær opmærksom på, at der kan gå et par minutter, før ændringer ses i registrene. \"Opret aktindsigtsdokument\" danner en samlet PDF med de afsnit fra sagen, du har markeret (som standard alle); dokumentet navngives med løbenummer og oprettelsesdato og lægges automatisk på fanen \"Dokumenter\".\n\n**Bemærk at i næste slide ændrer sagsnummeret og teksten i den grønne knap sig. Det er for at vise dig hvordan det ser ud når en \"Sagsbehandler\" rolle er logget ind og der står \"Skift sagstrin\", og når en \"Sekretariatsleder\" rolle er logget ind og der står \"Skift sagsbehandler.\"**"
+            "da": "\"Registrer betaling\" lader dig gemme, hvornår et sagsgebyr anses for betalt. \"Offentliggør sag\" bruges til at indberette, at en sag er blevet indbragt, og derved opfylde indberetningspligten — vær opmærksom på, at der kan gå et par minutter, før ændringer ses i registrene. \"Opret aktindsigtsdokument\" danner en samlet PDF med de afsnit fra sagen, du har markeret (som standard alle); dokumentet navngives med løbenummer og oprettelsesdato og lægges automatisk på fanen \"Dokumenter\".\n\n**Bemærk at i næste slide ændrer sagsnummeret og teksten i den grønne knap sig. Det er for at vise dig hvordan det ser ud når en \"Sagsbehandler\" rolle er logget ind og der står \"Skift sagstrin\", og når en \"Sekretariatsleder\" rolle er logget ind og der står \"Skift sagsbehandler.\"**"
           },
           "image": "/images/sagsbehandler/Right-arrow-click_cut.png"
         },
@@ -509,7 +521,7 @@
             "en": "The case: Tenancy",
             "da": "Sagen: Lejemål"
           },
-          "content": {
+          "caption": {
             "en": "Content for this tutorial is coming soon.",
             "da": "På fanen \"Lejemål\" vil der som regel stå en adresse, hvis sagen er indbragt via indbringelsesmodulet. Opretter du selv sagen, tilføjer du adressen ved at trykke \"Opret lejemål\" — enten via auto-complete (skriv starten af adressen, og vælg blandt forslagene) eller ved manuel indtastning."
           },
