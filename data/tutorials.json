@@ -533,11 +533,27 @@
             "en": "The case: Parties",
             "da": "Sagen: Parter"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Parter\" vil der som regel stå parter, hvis sagen er indbragt via indbringelsesmodulet."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "På fanen \"Parter\" vil der som regel stå parter, hvis sagen er indbragt via indbringelsesmodulet. Opretter du selv sagen, tilføjer du parter ved at trykke \"Opret part\" — det er muligt at oprette flere parter på samme sag. Du vælger først partstype (Indbringer, Medpart eller Modpart) og dernæst kategori (privatperson eller virksomhed), hvorefter du kan indtaste kontaktoplysninger: navn, CPR-nr., telefonnummer, e-mail og eventuelt hvilket lejemål parten hører til."
+            "da": "Opretter du selv sagen, tilføjer du parter ved at trykke \"Opret part\" — det er muligt at oprette flere parter på samme sag. Du vælger først partstype (Indbringer, Medpart eller Modpart) og dernæst kategori (privatperson eller virksomhed), hvorefter du kan indtaste kontaktoplysninger: navn, CPR-nr., telefonnummer, e-mail og eventuelt hvilket lejemål parten hører til."
           },
           "image": "/images/sagsbehandler/Parter_cut.png"
+        },
+        {
+          "id": "sagen-aabn-luk-parter",
+          "title": {
+            "en": "The case: Open and close for parties",
+            "da": "Sagen: Åbn og luk for parter"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Du kan altid åbne og lukke for parternes adgang til sagerne. Parterne får ikke en notifikation når du åbner, du skal selv meddele dem om det i besked sektionen. Åbn og luk virker kun når du har indtastet et CPR- eller CVR nummer."
+          },
+          "image": "/images/sagsbehandler/luk_part_cut.png"
         },
         {
           "id": "sagen-detaljer",
@@ -545,9 +561,13 @@
             "en": "The case: Details",
             "da": "Sagen: Detaljer"
           },
-          "content": {
+          "caption": {
             "en": "Content for this tutorial is coming soon.",
             "da": "På fanen \"Detaljer\" kan du notere oplysninger om klagen — hvad sagen handler om, og en kort beskrivelse af, hvad klagen drejer sig om. Er sagen indbragt via indbringelsesmodulet, vil der som regel allerede stå detaljer; ellers tilføjer du dem selv ved at trykke \"Rediger\"."
+          },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Der vil stå oplysninger indtastet af indbringeren, det kan du sagtens ændre, fordi de oprindelige oplysninger er gemt i indbringelsesdokumentet."
           },
           "image": "/images/sagsbehandler/Detaljer_cut.png"
         },
@@ -557,7 +577,7 @@
             "en": "The case: Documents",
             "da": "Sagen: Dokumenter"
           },
-          "content": {
+          "caption": {
             "en": "Content for this tutorial is coming soon.",
             "da": "På fanen \"Dokumenter\" finder du sagens dokumenter. Du tilføjer selv et dokument ved at trykke \"Tilføj dokument\" og angive fil, titel og eventuelt hvilke parter dokumentet skal deles med (så er det muligt at have dokumenter på sagen, som ikke alle parter kan se)."
           },
@@ -569,11 +589,27 @@
             "en": "Documents: Selected",
             "da": "Dokumenter: Markeret"
           },
-          "content": {
+          "caption": {
             "en": "Content for this tutorial is coming soon.",
             "da": "Markerer du et eller flere dokumenter, får du adgang til: \"Hent\" (download til egen pc), \"Del med\" (giv flere parter adgang), \"Sammenflet\" (flet de markerede filer til én samlet fil, kun synlig ved flere valgte filer) og \"Pseudonymisér\" (cleardox.io gennemgår dokumentet og overstreger personfølsomme oplysninger — du er selv ansvarlig for at tjekke, at alt relevant er overstreget, før dokumentet sendes videre; det pseudonymiserede dokument gemmes ved siden af originalen med tilføjelsen \"Pseudonymiseret\")."
           },
+          "content": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Man skal vælge flere PDF-filer for at sammenflet funktionen bliver synling. Du kan kun sammenflette PDF-filer, ikke billeder eller video."
+          },
           "image": "/images/sagsbehandler/Dokumenter_klik_cut.png"
+        },
+        {
+          "id": "rediger-cleardox",
+          "title": {
+            "en": "Editing the pseudonymization in Cleardox",
+            "da": "Redigér pseudonymisering i Cleardox"
+          },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Nu har jeg trykket \"Pseudonymiser\" og der er skabt et pseudonymiseret dokument. Det kan jeg hente ned på min enhed og se igennem. Er jeg ikke enig i pseudonymiseringen, kan jeg trykke på de tre små prikker ved siden af filnavnet, og trykke på \"Rediger i Cleardox.io\"."
+          },
+          "image": "/images/sagsbehandler/rediger_cleardox_cut.png"
         },
         {
           "id": "sagen-notater",
@@ -581,11 +617,15 @@
             "en": "The case: Notes",
             "da": "Sagen: Notater"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Notater\" kan du registrere notater på sagen til at orientere andre sagsbehandlere og nævnsmedlemmer."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "På fanen \"Notater\" kan du registrere notater på sagen til at orientere andre sagsbehandlere og nævnsmedlemmer. Tryk \"Opret notat\", skriv en overskrift og en tekst, og vælg om notatet skal deles med nævnsmedlemmer — dette kan også ændres bagefter ved at trykke \"Rediger\". Der kan oprettes flere notater på samme sag, men kun den, der har oprettet et notat, kan redigere i det. For hvert notat kan du se titel, oprettelsesdato, hvem der har oprettet det, og om det er delt med alle eller kun med sagsbehandlerne."
+            "da": "Tryk \"Opret notat\", skriv en overskrift og en tekst, og vælg om notatet skal deles med nævnsmedlemmer — dette kan også ændres bagefter ved at trykke \"Rediger\". Der kan oprettes flere notater på samme sag, men kun den, der har oprettet et notat, kan redigere i det. For hvert notat kan du se titel, oprettelsesdato, hvem der har oprettet det, og om det er delt med alle eller kun med sagsbehandlerne."
           },
-          "image": "/images/sagsbehandler/Notater_cut.png"
+          "image": "/images/sagsbehandler/Notater2_cut.png"
         },
         {
           "id": "sagen-beskeder",
@@ -593,9 +633,13 @@
             "en": "The case: Messages",
             "da": "Sagen: Beskeder"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Beskeder\" kan du korrespondere med parterne. Parterne modtager en Digital Post, der beder dem logge ind på huslejenaevn.dk-indbringelsesmodulet for at svare."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "På fanen \"Beskeder\" kan du korrespondere med parterne. Parterne modtager en Digital Post, der beder dem logge ind på huslejenaevn.dk-indbringelsesmodulet for at svare. Deres svar havner i din \"Indbakke\"; beskeder, du selv har sendt, ligger under \"Udbakke\". På sagsoversigten er sager med en ny besked markeret med \"Ny besked\". Når du opretter en besked, vælger du modtager(e) — der kan være flere — og kan tilknytte dokumenter fra sagen til beskeden."
+            "da": "Deres svar havner i din \"Indbakke\"; beskeder, du selv har sendt, ligger under \"Udbakke\". På sagsoversigten er sager med en ny besked markeret med \"Ny besked\". Når du opretter en besked, vælger du modtager(e) — der kan være flere — og kan tilknytte dokumenter fra sagen til beskeden. Du kan også vedhæfte filer fra din enhed."
           },
           "image": "/images/sagsbehandler/Beskeder_cut.png"
         },
@@ -605,9 +649,13 @@
             "en": "The case: Presentation to the board",
             "da": "Sagen: Forelæggelse"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "På fanen \"Forelæggelse\" klargør du sagen til nævnsmedlemmerne. Du vælger, hvilke dokumenter der skal sendes til nævnsmodulet, og om der skal oprettes en besigtigelse."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "På fanen \"Forelæggelse\" klargør du sagen til nævnsmedlemmerne. Du vælger, hvilke dokumenter der skal sendes til nævnsmodulet, og om der skal oprettes en besigtigelse.\n\nNår sagen er klar til behandling i nævnet, skifter du status til \"Klar til forelæggelse for nævn\". Herefter kan sekretariatslederen se, at sagen er klar, og vælge at tilføje den til en dagsorden."
+            "da": "Når sagen er klar til behandling i nævnet, skifter du status til \"Klar til forelæggelse for nævn\". Herefter kan sekretariatslederen se, at sagen er klar, og vælge at tilføje den til en dagsorden."
           },
           "image": "/images/sagsbehandler/Forelaeggelse_cut.png"
         },
@@ -617,9 +665,13 @@
             "en": "The case: Decision",
             "da": "Sagen: Afgørelse"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når nævnet har behandlet sagen og truffet en afgørelse, skal du indberette resultatet på fanen \"Afgørelse\". Tryk \"Rediger\" for at udfylde oplysningerne. Bemærk: at udfylde \"Afgørelse\" indberetter ikke sagen som afsluttet — det gør du efterfølgende under \"Afslutning\"."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Når nævnet har behandlet sagen og truffet en afgørelse, skal du indberette resultatet på fanen \"Afgørelse\". Tryk \"Rediger\" for at udfylde oplysningerne. Bemærk: at udfylde \"Afgørelse\" indberetter ikke sagen som afsluttet — det gør du efterfølgende under \"Afslutning\".\n\nFørst angiver du dato og \"Afslutningsårsag\", som har betydning for, hvilke felter du efterfølgende skal udfylde:\n\n• Afsluttet uden afgørelse: vælges, hvis sagen henlægges, f.eks. fordi der mangler oplysninger, eller klagen er trukket tilbage. Her angiver du desuden en henlæggelsesårsag (Manglende dokumentation/oplysninger, Andet, eller Forlig/klage trukket tilbage).\n\n• Afsluttet med afgørelse om medhold: vælges, hvis nævnet har givet medhold i sagen. Her udfylder du lovgrundlag (loven kan udfoldes til at vælge en konkret paragraf, og der kan vælges flere paragraffer), medhold (udlejer, delt eller lejer), gebyrpålæggelse, huslejefastsættelsesdato, huslejefastsættelsesmetode (det lejedes værdi, omkostningsbestemt husleje eller fri leje), huslejekategori (årlig husleje pr. kvadratmeter eller månedlig husleje), huslejeangivelse (eksempelhusleje eller lejemålsspecifik husleje), areal (lejemålets bruttoareal) og husleje (den månedlige leje eller den årlige leje pr. kvadratmeter, afhængigt af hvad du har valgt ovenfor).\n\n• Afsluttet med afgørelse om afvisning: vælges, hvis klagen afvises. Her angiver du lovgrundlag og en afvisningsårsag (Manglende kompetence eller Andet).\n\n• Afsluttet med afgørelse om forlig: vælges, hvis sagen er afsluttet med et forlig mellem parterne. Her udfylder du samme felter som ved medhold: lovgrundlag, medhold, gebyrpålæggelse, huslejefastsættelsesdato, huslejefastsættelsesmetode, huslejekategori, huslejeangivelse, areal og husleje.\n\n• Afsluttet med afgørelse om delvist medhold: vælges, hvis indbringer har fået delvist medhold i klagen. Samme felter som ved medhold skal udfyldes."
+            "da": "Først angiver du dato og \"Afslutningsårsag\", som har betydning for, hvilke felter du efterfølgende skal udfylde:\n\n• Afsluttet uden afgørelse: vælges, hvis sagen henlægges, f.eks. fordi der mangler oplysninger, eller klagen er trukket tilbage. Her angiver du desuden en henlæggelsesårsag (Manglende dokumentation/oplysninger, Andet, eller Forlig/klage trukket tilbage).\n\n• Afsluttet med afgørelse om medhold: vælges, hvis nævnet har givet medhold i sagen. Her udfylder du lovgrundlag (loven kan udfoldes til at vælge en konkret paragraf, og der kan vælges flere paragraffer), medhold (udlejer, delt eller lejer), gebyrpålæggelse, huslejefastsættelsesdato, huslejefastsættelsesmetode (det lejedes værdi, omkostningsbestemt husleje eller fri leje), huslejekategori (årlig husleje pr. kvadratmeter eller månedlig husleje), huslejeangivelse (eksempelhusleje eller lejemålsspecifik husleje), areal (lejemålets bruttoareal) og husleje (den månedlige leje eller den årlige leje pr. kvadratmeter, afhængigt af hvad du har valgt ovenfor).\n\n• Afsluttet med afgørelse om afvisning: vælges, hvis klagen afvises. Her angiver du lovgrundlag og en afvisningsårsag (Manglende kompetence eller Andet).\n\n• Afsluttet med afgørelse om forlig: vælges, hvis sagen er afsluttet med et forlig mellem parterne. Her udfylder du samme felter som ved medhold: lovgrundlag, medhold, gebyrpålæggelse, huslejefastsættelsesdato, huslejefastsættelsesmetode, huslejekategori, huslejeangivelse, areal og husleje.\n\n• Afsluttet med afgørelse om delvist medhold: vælges, hvis indbringer har fået delvist medhold i klagen. Samme felter som ved medhold skal udfyldes."
           },
           "image": "/images/sagsbehandler/Afgoerelse_cut.png"
         },
@@ -629,9 +681,13 @@
             "en": "The case: Closing",
             "da": "Sagen: Afslutning"
           },
+          "caption": {
+            "en": "Content for this tutorial is coming soon.",
+            "da": "Når nævnet har truffet afgørelse, og du har udfyldt fanen \"Afgørelse\", kan du afslutte sagen."
+          },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Når nævnet har truffet afgørelse, og du har udfyldt fanen \"Afgørelse\", kan du afslutte sagen. Tryk \"Rediger\" under fanen \"Afslutning\" for at angive dato og vælge \"Afsluttet som\": enten \"Afgjort\" eller \"Fejloprettet\". Når du trykker \"Afgjort\", opfylder du indberetningspligten, og sagen bliver synlig i afgørelses- og huslejeregistret — du kan ikke trykke \"Afgjort\" uden først at have valgt en afgørelsesform under \"Afgørelse\". Vælger du i stedet \"Fejloprettet\", er sagen ikke længere synlig for parterne.\n\nHer skal du desuden huske at skifte sagstrin til \"Offentliggør sag\" (den grønne knap øverst på siden), så sagen rent faktisk bliver offentliggjort."
+            "da": "Tryk \"Rediger\" under fanen \"Afslutning\" for at angive dato og vælge \"Afsluttet som\": enten \"Afgjort\" eller \"Fejloprettet\". Når du trykker \"Afgjort\", opfylder du indberetningspligten, og sagen bliver synlig i afgørelses- og huslejeregistret — du kan ikke trykke \"Afgjort\" uden først at have valgt en afgørelsesform under \"Afgørelse\". Vælger du i stedet \"Fejloprettet\", er sagen ikke længere synlig for parterne.\n\nHer skal du desuden huske at skifte sagstrin til \"Offentliggør sag\" (den grønne knap øverst på siden), så sagen rent faktisk bliver offentliggjort."
           },
           "image": "/images/sagsbehandler/Afslutning_cut.png"
         },
