@@ -346,7 +346,7 @@
           },
           "caption": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Nævnsmodulet er en portal for nævnsmedlemmer, hvor du kan se dokumenter og notater for dine planlagte nævnsmøder. Denne vejledning er til nævnsmedlemmer."
+            "da": "Denne vejledning er til nævnsmedlemmer. Nævnsmodulet er en portal for nævnsmedlemmer, hvor du kan se dokumenter og notater for dine planlagte nævnsmøder. For at få adgang til dette modul skal du inviteres af en sagsbehandler ved hjælp af din e-mail adresse."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
@@ -382,7 +382,7 @@
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Her finder du f.eks. mails fra parterne, betalingsinformation og selve indbringelsen. Tryk \"Hent\" for at downloade et dokument, eller \"Vedhæft\" for at tilføje dit eget dokument."
+            "da": "Her finder du dokumenter som er relevante for sagen. Disse dokumenter er præ-sorterede af sagsbehandlerne. Tryk \"Hent\" for at downloade et dokument, eller \"Vedhæft\" for at tilføje dit eget dokument. Du kan også vedhæfte word dokumenter."
           },
           "image": "/images/naevnsmodulet/dokumenter_naevnsmodul_cut.png"
         },
@@ -394,11 +394,11 @@
           },
           "caption": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Under fanen \"Notater\" kan du se notater tilknyttet mødepunktet."
+            "da": "Under fanen \"Notater\" kan du se notater tilknyttet mødepunktet fra sagsbehandlerne."
           },
           "content": {
             "en": "Content for this tutorial is coming soon.",
-            "da": "Hvert notat viser dato, hvem der har oprettet det, og hvem det er delt med. Notater bruges til at kommunikere med sagsbehandleren i den anden ende."
+            "da": "Hvert notat viser dato, hvem der har oprettet det, og hvem det er delt med. Notater bruges til at kommunikere med sagsbehandleren i den anden ende eller til at tage noter til sagen. Du kan vælge at dele med sagsbehandler eller beholde det for dig selv og de andre nævnsmedlemmer."
           },
           "image": "/images/naevnsmodulet/notater_naevnsmodul_cut.png"
         },
