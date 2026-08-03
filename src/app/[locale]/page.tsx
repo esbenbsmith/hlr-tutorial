@@ -13,7 +13,7 @@ const UI_TEXT: Record<Locale, { heading: string; subheading: string; search: str
     search: "Search tutorials",
   },
   da: {
-    heading: "Velkommen til uddannelsesmiljøet for Huslejenaevn.dk",
+    heading: "Velkommen til vejledningssiden for Huslejenaevn.dk(HLR)",
     subheading: "Vælg en vejledning for at komme i gang.",
     search: "Søg i vejledninger",
   },
