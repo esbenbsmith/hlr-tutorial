@@ -2,12 +2,30 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { withBasePath } from "@/lib/basePath";
 import { tutorials, getTutorial, getChooserFor, type Locale } from "@/lib/tutorials";
+import { ZoomableImage } from "@/components/ZoomableImage";
 
 const LOCALES: Locale[] = ["en", "da"];
 
-const UI_TEXT: Record<Locale, { stepOf: string; back: string; next: string; allTutorials: string }> = {
-  en: { stepOf: "Step {n} of {total}", back: "Back", next: "Next", allTutorials: "All tutorials" },
-  da: { stepOf: "Trin {n} af {total}", back: "Tilbage", next: "Næste", allTutorials: "Alle vejledninger" },
+const UI_TEXT: Record<
+  Locale,
+  { stepOf: string; back: string; next: string; allTutorials: string; zoomImage: string; closeZoom: string }
+> = {
+  en: {
+    stepOf: "Step {n} of {total}",
+    back: "Back",
+    next: "Next",
+    allTutorials: "All tutorials",
+    zoomImage: "Enlarge image",
+    closeZoom: "Close",
+  },
+  da: {
+    stepOf: "Trin {n} af {total}",
+    back: "Tilbage",
+    next: "Næste",
+    allTutorials: "Alle vejledninger",
+    zoomImage: "Forstør billede",
+    closeZoom: "Luk",
+  },
 };
 
 function renderWithBold(text: string) {
@@ -152,11 +170,11 @@ export default async function StepPage({
       )}
 
       {step.image && (
-        // eslint-disable-next-line @next/next/no-img-element -- path comes from JSON content, dimensions vary per step
-        <img
+        <ZoomableImage
           src={withBasePath(step.image)}
           alt=""
-          className="mb-4 w-full rounded-lg border border-[var(--border)]"
+          zoomLabel={t.zoomImage}
+          closeLabel={t.closeZoom}
         />
       )}
 
